@@ -1,6 +1,7 @@
 <?php
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CustomAuthController;
+use App\Http\Controllers\LotteryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,4 +16,10 @@ Route::post('custom-registration', [CustomAuthController::class, 'customRegistra
 Route::get('signout', [CustomAuthController::class, 'signOut'])->name('signout');
 Route::get('/', function () {
     return view('welcome');
+});
+
+
+Route::controller(LotteryController::class)->group(function () {
+    Route::get('lottery/create', 'create')->name('Lottery: Create Lottery');        
+    Route::post('lottery/store', 'store')->name('Lottery: Store Lottery');        
 });
