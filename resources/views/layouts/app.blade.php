@@ -53,27 +53,36 @@
           <img src="{{asset('/')}}images/sing.png" class="img" title="Singapore" />
         </li>
       </ul>
-      <form class="d-flex">
+      {{-- <form class="d-flex">
         <input
         class="form-control me-2"
         type="search"
         placeholder="Search"
         aria-label="Search"
-        />
-        <button class="btn btn-success" type="button">Join</button>
-        <a class="nav-link" aria-current="page" href="#">Login</a>
+        /> --}}
+        @guest
+        @if(Request::segment(1) == 'login')
+        <a class="btn btn-success" href="{{url('/register')}}">Join</a>
+        @endif
+        @if(Request::segment(1) == 'register')
+        <a class="nav-link" aria-current="page" href="{{url('/login')}}">Login</a>     
+        @endif   
+        @else        
+          <a class="nav-link" href="{{ route('signout') }}">Logout</a>
+        
+        @endguest
       </form>
     </div>
   </div>
 </nav>
 <!-- Nav bar ends  -->
-    @yield('content')
-    <script src="{{asset('/')}}js/jquery.min.js"></script>
-    <script src="{{asset('/')}}js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-        var base_url = "{{ url('/')}}";
-    </script>
-    <script  src="{{asset('/')}}js/custom.js"></script>
+@yield('content')
+<script src="{{asset('/')}}js/jquery.min.js"></script>
+<script src="{{asset('/')}}js/bootstrap.min.js"></script>
+<script type="text/javascript">
+  var base_url = "{{ url('/')}}";
+</script>
+<script  src="{{asset('/')}}js/custom.js"></script>
 
 
 </body>

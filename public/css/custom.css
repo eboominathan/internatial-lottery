@@ -1,3 +1,6 @@
+.border-right{ 
+    border-right: 1px solid black;
+    }
 .center {
     background-color: #dfdee8b3;
     margin: 4px;
@@ -17,10 +20,9 @@
     border: 0;
     opacity: 0.25;
   }
-
-
-
-
+  .alert:empty{
+    display: none;
+  }
 
 .c-result-card__prize-details {
     -ms-flex-pack: justify;

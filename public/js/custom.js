@@ -7,7 +7,7 @@ function getResult() {
                 switch (this.type) {
                     case "8":
                         type = 8;
-                        $("#al_" + type).text(this.a1);
+                        $("#a1_" + type).text(this.a1);
                         $("#a2_" + type).text(this.a2);
                         $("#a3_" + type).text(this.a3);
                         $("#a4_" + type).text(this.a4);
@@ -26,7 +26,7 @@ function getResult() {
                         break;
                     case "10":
                         type = 10;
-                        $("#al_" + type).text(this.a1);
+                        $("#a1_" + type).text(this.a1);
                         $("#a2_" + type).text(this.a2);
                         $("#a3_" + type).text(this.a3);
                         $("#a4_" + type).text(this.a4);
@@ -45,7 +45,7 @@ function getResult() {
                         break;
                     case "12":
                         type = 12;
-                        $("#al_" + type).text(this.a1);
+                        $("#a1_" + type).text(this.a1);
                         $("#a2_" + type).text(this.a2);
                         $("#a3_" + type).text(this.a3);
                         $("#a4_" + type).text(this.a4);
@@ -64,7 +64,7 @@ function getResult() {
                         break;
                     case "3":
                         type = 3;
-                        $("#al_" + type).text(this.a1);
+                        $("#a1_" + type).text(this.a1);
                         $("#a2_" + type).text(this.a2);
                         $("#a3_" + type).text(this.a3);
                         $("#a4_" + type).text(this.a4);
@@ -83,7 +83,7 @@ function getResult() {
                         break;
                     case "5":
                         type = 5;
-                        $("#al_" + type).text(this.a1);
+                        $("#a1_" + type).text(this.a1);
                         $("#a2_" + type).text(this.a2);
                         $("#a3_" + type).text(this.a3);
                         $("#a4_" + type).text(this.a4);
@@ -102,7 +102,7 @@ function getResult() {
                         break;
                     case "7":
                         type = 7;
-                        $("#al_" + type).text(this.a1);
+                        $("#a1_" + type).text(this.a1);
                         $("#a2_" + type).text(this.a2);
                         $("#a3_" + type).text(this.a3);
                         $("#a4_" + type).text(this.a4);
@@ -126,23 +126,28 @@ function getResult() {
         }
     });
 }
-
-// setInterval(() => {
-//     getResult();
-// }, 5000);
+getResult();
+setInterval(() => {
+    getResult();
+}, 5000);
 
 $(document).ready(function () {
-    $(".btn").click(function () {
+
+    $(".custom_btn").click(function () {   
+  
         var times = $("#time").val();
         if (times == "") {
             alert("Select time");
+            $('#time').focus();
+            return false;
         }
         $.ajax({
-            type: "POST",
-            url: base_url + "lottery/store",
+            method: "POST",
+            url: base_url + "/lottery/store",
             data: $("#form").serialize(),
             success: function (res) {
                 $(".alert").html(res.message);
+                $('#time').focus();
                 $("#form")[0].reset();
                 setTimeout(function () {
                     $(".alert").html("");
