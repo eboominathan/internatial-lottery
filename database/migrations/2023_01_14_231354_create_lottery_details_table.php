@@ -31,8 +31,16 @@ class CreateLotteryDetailsTable extends Migration
             $table->string('d2')->nullable();
             $table->string('d3')->nullable();
             $table->string('d4')->nullable();
+            $table->string('e1')->nullable();
+            $table->string('e2')->nullable();
+            $table->string('e3')->nullable();
+            $table->string('e4')->nullable();
+            $table->string('f1')->nullable();
+            $table->string('f2')->nullable();
+            $table->string('f3')->nullable();
+            $table->string('f4')->nullable();
             $table->string('type')->nullable();
-            $table->date('date');            
+            $table->date('date');
             $table->timestamps();
             $table->softDeletes();
         });

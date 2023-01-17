@@ -1,0 +1,131 @@
+.center {
+    background-color: #dfdee8b3;
+    margin: 4px;
+    padding: 17px;
+    width: 60px;
+    height: 51px;
+    border-radius: 50%;
+    border-color: 1px solid black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  hr {
+    margin: 1rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: 0.25;
+  }
+
+
+
+
+
+.c-result-card__prize-details {
+    -ms-flex-pack: justify;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    background-color: #fff;
+    border-bottom: 1px solid #c4c3cc;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding: 16px;
+    width: 100%
+}
+
+.c-result-card__prize-value {
+    color: #0a0827;
+    font-size: 21px;
+    font-size: 1.1666667rem;
+    font-weight: 700;
+    line-height: 1.1428571;
+    margin-left: 8px;
+    text-align: right
+}
+
+.c-result-card__prize-sub-value {
+    display: block;
+    font-size: 14px;
+    font-size: .7777778rem;
+    font-weight: 400;
+    line-height: 1.2857143
+}
+
+.c-result-card__prize-label {
+    color: #0a0827;
+    font-size: 16px;
+    font-size: .8888889rem;
+    font-weight: 500;
+    line-height: 1.5
+}
+
+.c-result-card__prize-label:before {
+    background-image: url('/images/dollar.svg');
+    background-position: 50% 50%;
+    background-size: 24px 24px;
+    content: "";
+    display: inline-block;
+    height: 24px;
+    margin-right: 8px;
+    vertical-align: top;
+    width: 24px
+}
+
+
+
+
+.c-result-card__next-draw .c-result-card__next-draw-details,
+.c-result-card__next-draw .c-result-card__prize-details {
+    -ms-flex-pack: justify;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    width: 100%
+}
+
+.c-result-card__next-draw .c-result-card__prize-details {
+    background-color: initial;
+    border-bottom: none;
+    border-top: 1px solid #c4c3cc;
+    padding: 12px 0
+}
+
+.c-result-card__next-draw .c-result-card__next-draw-details {
+    color: #0a0827;
+    padding-bottom: 8px
+}
+
+.c-result-card__next-draw .c-result-card__next-draw-details .c-result-card__sub-title {
+    font-size: 16px;
+    font-size: .8888889rem;
+    font-weight: 700;
+    line-height: 1.5
+}
+
+.c-result-card__next-draw .c-result-card__next-draw-details .c-result-card__title {
+    font-size: 14px;
+    font-size: .7777778rem;
+    font-weight: 500;
+    line-height: 1.7142857
+}
+
+.c-result-card__next-draw:after {
+
+    background-position: top 50% right -64px;
+    background-repeat: no-repeat;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1
+}
+
+.c-result-card__cta {
+    margin-bottom: 16px
+}
