@@ -61,15 +61,15 @@
         aria-label="Search"
         /> --}}
         @guest
-        @if(Request::segment(1) == 'login')
+        @if(Request::segment(1) == 'login' || Request::segment(1) == '')
         <a class="btn btn-success" href="{{url('/register')}}">Join</a>
         @endif
         @if(Request::segment(1) == 'register')
-        <a class="nav-link" aria-current="page" href="{{url('/login')}}">Login</a>     
-        @endif   
-        @else        
+        <a class="nav-link" aria-current="page" href="{{url('/login')}}">Login</a>
+        @endif
+        @else
           <a class="nav-link" href="{{ route('signout') }}">Logout</a>
-        
+
         @endguest
       </form>
     </div>
