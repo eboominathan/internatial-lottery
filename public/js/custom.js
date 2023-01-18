@@ -1,5 +1,5 @@
 function getResult() {
-    $.get("index.php/lottery/results", function (res) {
+    $.get("lottery/results", function (res) {
         var datas = res;
         if (datas.data.length) {
             $(datas.data).each(function () {
