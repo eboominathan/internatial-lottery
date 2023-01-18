@@ -61,7 +61,7 @@
         aria-label="Search"
         /> --}}
         @guest
-        @if(Request::segment(1) == 'login' || Request::segment(1) == '')
+        @if(Request::segment(1) == 'login')
         <a class="btn btn-success" href="{{url('/register')}}">Join</a>
         @endif
         @if(Request::segment(1) == 'register')
