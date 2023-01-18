@@ -5,7 +5,7 @@ function getResult() {
             $(datas.data).each(function () {
                 var type = 0;
                 switch (this.type) {
-                    case "8":
+                    case 8:
                         type = 8;
                         $("#a1_" + type).text(this.a1);
                         $("#a2_" + type).text(this.a2);
@@ -24,7 +24,7 @@ function getResult() {
                         $("#d3_" + type).text(this.d3);
                         $("#d4_" + type).text(this.d4);
                         break;
-                    case "10":
+                    case 10:
                         type = 10;
                         $("#a1_" + type).text(this.a1);
                         $("#a2_" + type).text(this.a2);
@@ -43,7 +43,7 @@ function getResult() {
                         $("#d3_" + type).text(this.d3);
                         $("#d4_" + type).text(this.d4);
                         break;
-                    case "12":
+                    case 12:
                         type = 12;
                         $("#a1_" + type).text(this.a1);
                         $("#a2_" + type).text(this.a2);
@@ -62,7 +62,7 @@ function getResult() {
                         $("#d3_" + type).text(this.d3);
                         $("#d4_" + type).text(this.d4);
                         break;
-                    case "3":
+                    case 3:
                         type = 3;
                         $("#a1_" + type).text(this.a1);
                         $("#a2_" + type).text(this.a2);
@@ -81,7 +81,7 @@ function getResult() {
                         $("#d3_" + type).text(this.d3);
                         $("#d4_" + type).text(this.d4);
                         break;
-                    case "5":
+                    case 5:
                         type = 5;
                         $("#a1_" + type).text(this.a1);
                         $("#a2_" + type).text(this.a2);
@@ -100,7 +100,7 @@ function getResult() {
                         $("#d3_" + type).text(this.d3);
                         $("#d4_" + type).text(this.d4);
                         break;
-                    case "7":
+                    case 7:
                         type = 7;
                         $("#a1_" + type).text(this.a1);
                         $("#a2_" + type).text(this.a2);
