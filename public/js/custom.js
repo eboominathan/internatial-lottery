@@ -1,5 +1,5 @@
 function getResult() {
-    $.get("lottery/results", function (res) {
+    $.get("index.php/lottery/results", function (res) {
         var datas = res;
         if (datas.data.length) {
             $(datas.data).each(function () {
@@ -133,8 +133,8 @@ setInterval(() => {
 
 $(document).ready(function () {
 
-    $(".custom_btn").click(function () {   
-  
+    $(".custom_btn").click(function () {
+
         var times = $("#time").val();
         if (times == "") {
             alert("Select time");
