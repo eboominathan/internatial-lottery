@@ -2,7 +2,8 @@
     border-right: 1px solid black;
     }
 .center {
-    background-color: #dfdee8b3;
+    background-color: white;
+    color: black;
     margin: 4px;
     padding: 17px;
     width: 60px;
@@ -39,7 +40,7 @@
 }
 
 .c-result-card__prize-value {
-    color: #0a0827;
+    /*color: #0a0827;*/
     font-size: 21px;
     font-size: 1.1666667rem;
     font-weight: 700;
@@ -57,7 +58,7 @@
 }
 
 .c-result-card__prize-label {
-    color: #0a0827;
+    /*color: #0a0827;*/
     font-size: 16px;
     font-size: .8888889rem;
     font-weight: 500;
@@ -97,7 +98,7 @@
 }
 
 .c-result-card__next-draw .c-result-card__next-draw-details {
-    color: #0a0827;
+    /*color: #0a0827;*/
     padding-bottom: 8px
 }
 

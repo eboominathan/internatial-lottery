@@ -4,7 +4,7 @@ function getResult() {
         if (datas.data.length) {
             $(datas.data).each(function () {
                 var type = 0;
-                switch (this.type) {
+                switch (Number(this.type)) {
                     case 8:
                         type = 8;
                         $("#a1_" + type).text(this.a1);
@@ -128,7 +128,7 @@ function getResult() {
 }
 getResult();
 setInterval(() => {
-    getResult();
+    //getResult();
 }, 5000);
 
 $(document).ready(function () {
