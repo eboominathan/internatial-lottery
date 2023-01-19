@@ -128,7 +128,7 @@ function getResult() {
 }
 getResult();
 setInterval(() => {
-    //getResult();
+    getResult();
 }, 5000);
 
 $(document).ready(function () {
