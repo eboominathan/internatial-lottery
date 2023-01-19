@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-12 text-white">
             <div class="card">
                 <div class="alert alert-success"></div>
                 <form id="form">
@@ -36,23 +36,23 @@
                                 </div>
                             </div>
                         </h6>
-                        <div class="col-sm-12">
+                        <div class="col-sm-12 text-white">
                             <div class="row">
                                 <div class="col-sm-6 text-center border-right">
                                     <span class="fs-5 fw-bold">A: Jackpot</span>
                                     <div class="clearfix"></div><br>
                                     <div class="row">
                                         <div class="col-sm-3 ">
-                                            <input maxlength="2"  class="form-control" name="a1">                   
+                                            <input maxlength="2"  class="form-control" name="a1">
                                         </div>
                                         <div class="col-sm-3">
-                                            <input maxlength="2"  class="form-control" name="a2">                   
+                                            <input maxlength="2"  class="form-control" name="a2">
                                         </div>
                                         <div class="col-sm-3">
-                                            <input maxlength="3"  class="form-control" name="a3">                   
+                                            <input maxlength="3"  class="form-control" name="a3">
                                         </div>
                                         <div class="col-sm-3">
-                                            <input maxlength="3"  class="form-control" name="a4">                   
+                                            <input maxlength="3"  class="form-control" name="a4">
                                         </div>
                                         <br >
                                         <br >
@@ -61,7 +61,7 @@
                                         </div>
 
                                     </div>
-                                </div>                                
+                                </div>
                                 <div class="col-sm-6 text-center">
                                     <span class="fs-5 fw-bold">B: Jackpot</span>
                                     <div class="clearfix"></div><br>
@@ -117,16 +117,16 @@
                                     <div class="clearfix"></div><br>
                                     <div class="row">
                                         <div class="col-sm-3">
-                                            <input maxlength="2"  class="form-control" name="d1">                   
+                                            <input maxlength="2"  class="form-control" name="d1">
                                         </div>
                                         <div class="col-sm-3">
-                                            <input maxlength="2"  class="form-control" name="d2">                   
+                                            <input maxlength="2"  class="form-control" name="d2">
                                         </div>
                                         <div class="col-sm-3">
-                                            <input maxlength="3"  class="form-control" name="d3">                   
+                                            <input maxlength="3"  class="form-control" name="d3">
                                         </div>
                                         <div class="col-sm-3">
-                                            <input maxlength="3"  class="form-control" name="d4">                   
+                                            <input maxlength="3"  class="form-control" name="d4">
                                         </div>
                                          <br >
                                         <br >
@@ -144,6 +144,25 @@
             </div>
         </div>
         {{-- row  --}}
+
+        <style>
+            .container{
+    /*background-image: url('{{asset('images/background.jpg')}}');*/
+        background: #8a2387;
+        background: linear-gradient(320deg,#f27121,#e94057,#8a2387);
+    }
+    .card{
+        background: rgba(255, 255, 255, 0.2) !important;
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    body{
+    font-family: "Inter",-apple-system,"Nunito",BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    }
+        </style>
 
     </div>
 </div>

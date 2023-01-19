@@ -1,4 +1,4 @@
-.border-right{ 
+.border-right{
     border-right: 1px solid black;
     }
 .center {
@@ -132,3 +132,22 @@
 .c-result-card__cta {
     margin-bottom: 16px
 }
+
+
+
+.container-fluid{
+    /*background-image: url('{{asset('images/background.jpg')}}');*/
+        background: #8a2387;
+        background: linear-gradient(320deg,#f27121,#e94057,#8a2387);
+    }
+    .card{
+        background: rgba(255, 255, 255, 0.2) !important;
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    body{
+    font-family: "Inter",-apple-system,"Nunito",BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    }

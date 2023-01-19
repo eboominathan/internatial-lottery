@@ -113,13 +113,13 @@ class LotteryController extends Controller
 
 
         $where = ['type' => $request->type, 'date' => Carbon::now()->format('Y-m-d')];
-        $lottery = LotteryDetail::where($where)->first();
-        if (!empty($lottery)) {
-            $lottery->update($data);
-        } else {
-            $data += $where;
+        // $lottery = LotteryDetail::where($where)->first();
+        // if (!empty($lottery)) {
+        //     $lottery->update($data);
+        // } else {
+        //     $data += $where;
             LotteryDetail::create($data)->id;
-        }
+        //}
 
         return response()->json(['message' => 'Lottery details saved successfully!'], 200);
     }
