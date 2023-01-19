@@ -3,9 +3,9 @@
 @section('content')
 <style type="text/css">
     .container-fluid{
-        background-image: url('{{asset('images/background.jpg')}}');*/
-        /*    background: #8a2387;
-            background: linear-gradient(320deg,#f27121,#e94057,#8a2387);*/
+        /*background-image: url('{{asset('images/background.jpg')}}');*/
+            background: #8a2387;
+            background: linear-gradient(320deg,#f27121,#e94057,#8a2387);
         }
         .card{            
             background: rgba(255, 255, 255, 0.2);
