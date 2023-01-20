@@ -39,4 +39,12 @@
         </div>
     </div>
 </main>
+<style>
+    body{
+    /*background-image: url('{{asset('images/background.jpg')}}');*/
+        background: #8a2387;
+        background: linear-gradient(320deg,#f27121,#e94057,#8a2387);
+    }
+</style>
+
 @endsection
