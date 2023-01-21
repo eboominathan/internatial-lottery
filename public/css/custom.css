@@ -2,17 +2,13 @@
     border-right: 1px solid black;
     }
 .center {
-    background-color: white;
+       background-color: white;
     color: black;
-    margin: 1px 40px;
-    padding: 13px;
-    width: 60px;
-    height: 51px;
     border-radius: 50%;
-    border-color: 1px solid black;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    display: inline-flex;
+    padding: 17px;
+    margin: 7px;
+ 
   }
   hr {
     margin: 1rem 0;
