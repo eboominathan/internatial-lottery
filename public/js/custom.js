@@ -4,6 +4,9 @@ function getResult() {
         if (datas.data.length) {
             $(datas.data).each(function () {
                 var type = 0;
+                if(this.published == true){
+                    $('#published_'+this.type).val(1);
+                }
                 switch (Number(this.type)) {
                     case 8:
                         type = 8;
@@ -50,7 +53,7 @@ function getResult() {
 }
 getResult();
 setInterval(() => {
-  //  getResult();
+   getResult();
 }, 5000);
 
 $(document).ready(function () {
@@ -98,20 +101,36 @@ function getRandom(count){
 }
 function myFunction() {   
       
-                $("#a1_8").text(getRandom(2));
-                $("#a2_8").text(getRandom(3));
-                $("#a1_10").text(getRandom(2));
-                $("#a2_10").text(getRandom(3));
+                if($('#published_8').val() == ''){
+                $("#a1_8").text(getRandom(2)); 
+                $("#a2_8").text(getRandom(3));                    
+                }
+
+                if($('#published_10').val() == ''){
+                $("#a1_10").text(getRandom(2)); 
+                $("#a2_10").text(getRandom(3));                    
+                }
+
+                if($('#published_12').val() == ''){
                 $("#a1_12").text(getRandom(2));
-                $("#a2_12").text(getRandom(3));
-                $("#a1_3").text(getRandom(2));
-                $("#a2_3").text(getRandom(3));
-           
+                $("#a2_12").text(getRandom(3));                    
+                }
+
+                if($('#published_3').val() == ''){
+                $("#a1_3").text(getRandom(2)); 
+                $("#a2_3").text(getRandom(3));                               
+                }
+
+                if($('#published_5').val() == ''){
                 $("#a1_5").text(getRandom(2));
-                $("#a2_5").text(getRandom(3));
-                                
-                $("#a1_7").text(getRandom(2));
-                $("#a2_7").text(getRandom(3));
+                $("#a2_5").text(getRandom(3));                                                    
+                }
+
+                if($('#published_7').val() == ''){
+                $("#a1_7").text(getRandom(2));   
+                $("#a2_7").text(getRandom(3));                    
+                }
+
                 
                         
 }

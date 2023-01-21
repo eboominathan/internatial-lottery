@@ -9,6 +9,13 @@
                         <h6 class="card-title p-3 mb-2">
                             Internationa1 - Lottery
                             <div class="col-sm-12">
+
+    <input type="hidden" name="published_8" id="published_8" placeholder="published_8" style="color:black">
+    <input type="hidden" name="published_10" id="published_10" placeholder="published_10" style="color:black">
+    <input type="hidden" name="published_12" id="published_12" placeholder="published_12" style="color:black">
+    <input type="hidden" name="published_3" id="published_3" placeholder="published_3" style="color:black">
+    <input type="hidden" name="published_5" id="published_5" placeholder="published_5" style="color:black">
+    <input type="hidden" name="published_7" id="published_7" placeholder="published_7" style="color:black">
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <span>

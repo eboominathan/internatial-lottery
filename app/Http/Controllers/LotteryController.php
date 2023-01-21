@@ -105,8 +105,38 @@ class LotteryController extends Controller
 
     public function results()
     {
+
         $currentDate = Carbon::now()->format('Y-m-d');
         $result = LotteryDetail::where('date', $currentDate)->get();
+        if(!empty($result)){
+            $response = [];
+            $currentDatetime = Carbon::now()->format('Y-m-d H:i:s');
+
+                foreach($result as $key => $value){
+                    $result[$key]['published'] = false;
+                    if($value['type'] == 8 && $currentDatetime > $value['date'].' 08:00:00' ){
+                        $result[$key]['published'] = true;
+                    } 
+                    if($value['type'] == 10 && $currentDatetime > $value['date'].' 10:00:00' ){
+                        $result[$key]['published'] = true;
+                    } 
+                    if($value['type'] == 1 && $currentDatetime > $value['date'].' 01:00:00' ){
+                        $result[$key]['published'] = true;
+                    } 
+                    if($value['type'] == 3 && $currentDatetime > $value['date'].' 03:00:00' ){
+                        $result[$key]['published'] = true;
+                    } 
+                    if($value['type'] == 5 && $currentDatetime > $value['date'].' 05:00:00' ){
+                        $result[$key]['published'] = true;
+                    } 
+                    if($value['type'] == 7 && $currentDatetime > $value['date'].' 07:00:00' ){
+                        $result[$key]['published'] = true;
+                    } 
+
+                }
+        }
+
+        //dd($result->toArray(),$currentDatetime);
         return response()->json(['msg'=>'Lottery result fetched successfully','data' => $result],200);
     }
 }
