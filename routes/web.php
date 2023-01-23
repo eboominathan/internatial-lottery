@@ -27,6 +27,7 @@ Route::group(['middleware' => 'auth'], function () {
         Route::post('lottery/store', 'store')->name('Lottery: Store Lottery');
         Route::post('lottery/paginate', 'paginate')->name('Lottery: Paginate Lottery');
         Route::get('lottery/view', 'index')->name('Lottery: View Lottery');
+        Route::post('lottery/view', 'index')->name('Lottery: Filter Lottery');
     });
 });
 
