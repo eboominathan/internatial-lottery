@@ -4,17 +4,27 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\LotteryDetail;
+use App\Services\LotteryService;
+
 use Carbon\Carbon;
 
 class LotteryController extends Controller
 {
+   
+
+     public function __construct(LotteryService $lotteryService)
+    {
+
+    }
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
+        $lottery = LotteryDetail::paginate();
+        return view('lottery.view',compact('lottery'));
     }
 
     /**
@@ -138,5 +148,10 @@ class LotteryController extends Controller
 
         //dd($result->toArray(),$currentDatetime);
         return response()->json(['msg'=>'Lottery result fetched successfully','data' => $result],200);
+    }
+
+    public function paginate(){
+
+        return $this->lotteryService->paginate();
     }
 }

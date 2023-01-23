@@ -9,6 +9,7 @@
 <body>
   <link href="{{asset('/')}}css/bootstrap.min.css" rel="stylesheet" />
   <link href="{{asset('/')}}css/custom.css" rel="stylesheet" />
+  <link href="{{asset('/')}}bootstrap-datepicker/css/bootstrap-datepicker3.min.css" rel="stylesheet" />
 
   <style>
     .img {
@@ -86,7 +87,11 @@
   var base_url = "{{ url('/')}}";
 </script>
 <script  src="{{asset('/')}}js/custom.js"></script>
+<script  src="{{asset('/')}}bootstrap-datepicker/css/bootstrap-datepicker3.min.css"></script>
 
+<script type="text/javascript">
+  $('.date').datepicker();
+</script>
 
 </body>
 </html>

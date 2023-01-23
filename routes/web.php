@@ -25,5 +25,9 @@ Route::group(['middleware' => 'auth'], function () {
     Route::controller(LotteryController::class)->group(function () {
         Route::get('lottery/create', 'create')->name('Lottery: Create Lottery');
         Route::post('lottery/store', 'store')->name('Lottery: Store Lottery');
+        Route::post('lottery/paginate', 'paginate')->name('Lottery: Paginate Lottery');
+        Route::get('lottery/view', 'index')->name('Lottery: View Lottery');
     });
 });
+
+
