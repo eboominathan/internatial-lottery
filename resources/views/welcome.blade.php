@@ -3,6 +3,15 @@
     hr{
         background-color: black;
     }
+    @media (min-width: 768px)
+.col-md-12 {    
+    margin: 3px 48px !important;
+}@media (min-width: 1440px)
+.col-md-12 {    
+    margin: 3px 48px !important;
+}
+
+
 </style>
 @section('content')
 
@@ -54,13 +63,13 @@
                                     </div>
                                 </div>                             
                             <hr>
-                            <div class="footer">
-                                <div class="c-result-card__next-draw">
-                                    <div class="c-result-card__next-draw-details">
+                            <div class="footer" align="center">
+                                <div class="c-result-card__next-draw" align="center">
+                                    <div class="c-result-card__next-draw-details" align="center">
                                         <span class="c-result-card__sub-title c-result-card__prize-label">2 Digits Lucky
                                         Draw / 1 X 100 </span>                                        
                                         </div>
-                                        <dl class="c-result-card__prize-details">
+                                        <dl class="c-result-card__prize-details" align="center">
                                             <dt class="c-result-card__prize-label"><b>3 Digits Lucky Draw / 1 X 1000 </b></dt>
                                         </dl>
 
