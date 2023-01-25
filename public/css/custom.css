@@ -2,18 +2,22 @@
     border-right: 1px solid black;
     }
 .center {
-       background-color: white;
-    color: black;
+       
+width: 81px;
+    line-height: 73px;
     border-radius: 50%;
-    display: inline-flex;
-    padding: 17px;
-    margin: 7px;
+    text-align: center;
+    font-size: 37px;
+    margin: -8px 46px;
+    background: #fff;
+    color: black;
+    font-weight: bold;
  
   }
   hr {
     margin: 1rem 0;
     color: inherit;
-    background-color: currentColor;
+    background-color: black;
     border: 0;
     opacity: 0.25;
   }
@@ -137,7 +141,7 @@
         background: linear-gradient(320deg,#f27121,#e94057,#8a2387);
     }
     .card{
-        background: rgba(255, 255, 255, 0.2) !important;
+        background: grey !important;
         border-radius: 16px;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(5px);
