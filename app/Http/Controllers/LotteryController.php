@@ -10,7 +10,7 @@ use Carbon\Carbon;
 
 class LotteryController extends Controller
 {
-   
+
 
      public function __construct(LotteryService $lotteryService)
     {
@@ -23,10 +23,15 @@ class LotteryController extends Controller
      */
     public function index(Request $request)
     {
-        $lottery = LotteryDetail::paginate();
+        $where = [];
+        if(!empty($request->date)){
+            $where = [
+                    'date' => date('Y-m-d',strtotime($request->date))
+                ];
+        }
+        $lottery = LotteryDetail::where($where)->paginate();
         return view('lottery.view',compact('lottery'));
     }
-
     /**
      * Show the form for creating a new resource.
      *
@@ -50,10 +55,10 @@ class LotteryController extends Controller
         $data = [];
         if (!empty($request->a1)) {
             $data += ['a1' => $request->a1];
-        }        
+        }
         if (!empty($request->a2)) {
             $data += ['a2' => $request->a2];
-        }      
+        }
 
 
         $where = ['type' => $request->type, 'date' => Carbon::now()->format('Y-m-d')];
@@ -126,22 +131,22 @@ class LotteryController extends Controller
                     $result[$key]['published'] = false;
                     if($value['type'] == 8 && $currentDatetime > $value['date'].' 08:00:00' ){
                         $result[$key]['published'] = true;
-                    } 
+                    }
                     if($value['type'] == 10 && $currentDatetime > $value['date'].' 10:00:00' ){
                         $result[$key]['published'] = true;
-                    } 
+                    }
                     if($value['type'] == 1 && $currentDatetime > $value['date'].' 01:00:00' ){
                         $result[$key]['published'] = true;
-                    } 
+                    }
                     if($value['type'] == 3 && $currentDatetime > $value['date'].' 03:00:00' ){
                         $result[$key]['published'] = true;
-                    } 
+                    }
                     if($value['type'] == 5 && $currentDatetime > $value['date'].' 05:00:00' ){
                         $result[$key]['published'] = true;
-                    } 
+                    }
                     if($value['type'] == 7 && $currentDatetime > $value['date'].' 07:00:00' ){
                         $result[$key]['published'] = true;
-                    } 
+                    }
 
                 }
         }
