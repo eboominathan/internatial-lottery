@@ -20,7 +20,7 @@
             <h6>Playing in 7B Country,/25 Millions Players daily</h6></strong>
         </div>
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-6" style="padding: 20px;">
                 <div class="card">
                     <div class="card-body">                       
                             <b>
@@ -70,7 +70,7 @@
                     </div>
                 </div>
                 {{-- row  --}}
-                <div class="col-sm-6">
+                <div class="col-sm-6" style="padding: 20px;">
                 <div class="card">
                     <div class="card-body">                       
                             <b>
@@ -120,7 +120,7 @@
                     </div>
                 </div>
                     {{-- row  --}}                    
-                    <div class="col-sm-6">
+                    <div class="col-sm-6" style="padding: 20px;">
                 <div class="card">
                     <div class="card-body">                       
                             <b>
@@ -170,7 +170,7 @@
                     </div>
                 </div>
                         {{-- row --}}
-                       <div class="col-sm-6">
+                       <div class="col-sm-6" style="padding: 20px;">
                 <div class="card">
                     <div class="card-body">                       
                             <b>
@@ -220,7 +220,7 @@
                     </div>
                 </div>
                             {{-- row --}}
-                            <div class="col-sm-6">
+                            <div class="col-sm-6" style="padding: 20px;">
                 <div class="card">
                     <div class="card-body">                       
                             <b>
@@ -269,7 +269,7 @@
                         </div>
                     </div>
                 </div>                                {{-- row --}}
-                                <div class="col-sm-6">
+                                <div class="col-sm-6" style="padding: 20px;">
                 <div class="card">
                     <div class="card-body">                       
                             <b>
