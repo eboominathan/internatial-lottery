@@ -18,7 +18,11 @@
       /*display: none !important;*/
     }
     .card{
-      background: transparent !important;
+      background: grey !important;
+      border: solid 4px #fff;
+    }
+    .title-block{
+    margin: 0px 56px;
     }
   </style>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">

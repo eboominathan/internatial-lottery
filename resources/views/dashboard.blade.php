@@ -1,50 +1,58 @@
 @extends('layouts.app')
-
+<style type="text/css">
+    hr{
+        background-color: black;
+    }
+</style>
 @section('content')
-    <div class="container-fluid text-white">
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h6 class="card-title p-3 mb-2">
-                            Internationa1 - Lottery
-                            <div class="col-sm-12">
 
-    <input type="hidden" name="published_8" id="published_8" placeholder="published_8" style="color:black">
+ <input type="hidden" name="published_8" id="published_8" placeholder="published_8" style="color:black">
     <input type="hidden" name="published_10" id="published_10" placeholder="published_10" style="color:black">
     <input type="hidden" name="published_12" id="published_12" placeholder="published_12" style="color:black">
     <input type="hidden" name="published_3" id="published_3" placeholder="published_3" style="color:black">
     <input type="hidden" name="published_5" id="published_5" placeholder="published_5" style="color:black">
     <input type="hidden" name="published_7" id="published_7" placeholder="published_7" style="color:black">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <span>
-                                            <h5> <?=date('l M d,Y') ?> </h5>
-                                        </span>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <span>
-                                            <h5>Time :8.00 AM</h5>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </h6>
+
+
+    <div class="container-fluid text-white">
+        <div class="row box" align="center" style="background:rgba(1,1,1,0.5);padding: 17px;">
+            <strong><h2><b>WORLD WIDE LOTTERY<b> </h2>
+            <h6>Playing in 7B Country,/25 Millions Players daily</h6></strong>
+            <div align="left">Lottery History</div>
+      </div>
+        <div class="row">
+            <div class="col-sm-6" style="padding: 20px;">
+                <div class="card">
+                    <div class="card-body">                       
+                            <b>
+                            <table width="100%" style="color:#fff;font-size: 21px;">
+                                <tr align="center">
+                                    <td><strong>Internationa1 - Lottery </strong></td>                                    
+                                </tr>
+                                <tr align="center">
+                                    <td><strong><?=date('l M d,Y') ?></strong></td>                                    
+                                </tr>
+                                <tr align="center">
+                                    <td><strong>Time : 8:00 AM</strong></td>                                    
+                                </tr>
+                            </table>    
+                            </b>                        
+                            <hr>                         
                         <div class="col-md-12">
                             <div class="row">
                                 <div class="col-md-12 text-center ">
-                                  <span class="fs-5 fw-bold">A: Jackpot</span>
                                     <div class="row text-center">
-                                        <div class="col-md-6 col-sm-3 fs-5 fw-bold">
-                                            <div class="center" id="a1_8"><?=rand(10,99)?></div>
-                                        </div>
-                                        <div class="col-md-6 col-sm-3  fs-5 fw-bold">
-                                            <div class="center" id="a2_8"><?=rand(100,999)?></div>
-                                        </div>                                      
+                                        <table>
+                                            <tr>
+                                                <b>
+                                                <td><strong><div class="center" id="a1_8">00</div></strong></td>
+                                                <td><strong><div class="center" id="a2_8">000</div></strong></td>
+                                            </b>
+                                            </tr>
+                                        </table>                                            
+                                       </div>                                             
                                     </div>
-                                </div>                            
-                               
-                            </div> <!-- Row -->
+                                </div>                             
                             <hr>
                             <div class="footer">
                                 <div class="c-result-card__next-draw">
@@ -63,281 +71,254 @@
                     </div>
                 </div>
                 {{-- row  --}}
-                <div class="col-sm-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h6 class="card-title p-3 mb-2" style="background-color: rgba(0, 0, 0, 0.05)">
-                                Internationa1 - Lottery
-                                <div class="col-sm-12">
-                                    <div class="row">
-                                        <div class="col-sm-6">
-                                            <span>
-                                                <h5> <?=date('l M d,Y') ?> </h5>
-                                            </span>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <span>
-                                                <h5>Time :10.00 AM</h5>
-                                            </span>
-                                        </div>
+                <div class="col-sm-6" style="padding: 20px;">
+                <div class="card">
+                    <div class="card-body">                       
+                            <b>
+                            <table width="100%" style="color:#fff;font-size: 21px;">
+                                <tr align="center">
+                                    <td><strong>Internationa1 - Lottery </strong></td>                                    
+                                </tr>
+                                <tr align="center">
+                                    <td><strong><?=date('l M d,Y') ?></strong></td>                                    
+                                </tr>
+                                <tr align="center">
+                                    <td><strong>Time : 10:00 AM</strong></td>                                    
+                                </tr>
+                            </table>    
+                            </b>                        
+                            <hr>                         
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-12 text-center ">
+                                    <div class="row text-center">
+                                        <table>
+                                            <tr>
+                                                <b>
+                                                <td><strong><div class="center" id="a1_10">00</div></strong></td>
+                                                <td><strong><div class="center" id="a2_10">000</div></strong></td>
+                                            </b>
+                                            </tr>
+                                        </table>                                            
+                                       </div>                                             
                                     </div>
-                                </div>
-                            </h6>
-                            <div class="col-sm-12">
-                                <div class="row">
-                                    <div class="col-sm-12 text-center">
-                                        <span class="fs-5 fw-bold">A: Jackpot</span>
-                                         
-                                         <div class="row text-center">
-                                        <div class="col-md-6 col-sm-3 fs-5 fw-bold">
-                                            <div class="center" id="a1_10"><?=rand(10,99)?></div>
+                                </div>                             
+                            <hr>
+                            <div class="footer">
+                                <div class="c-result-card__next-draw">
+                                    <div class="c-result-card__next-draw-details">
+                                        <span class="c-result-card__sub-title c-result-card__prize-label">2 Digits Lucky
+                                        Draw / 1 X 100 </span>                                        
                                         </div>
-                                        <div class="col-md-6 col-sm-3 fs-5 fw-bold">
-                                            <div class="center" id="a2_10"><?=rand(100,999)?></div>
-                                        </div>                                      
-                                    </div>
-                                    </div>
-                                    
-                                </div> <!-- Row -->
+                                        <dl class="c-result-card__prize-details">
+                                            <dt class="c-result-card__prize-label"><b>3 Digits Lucky Draw / 1 X 1000 </b></dt>
+                                        </dl>
 
-
-                                <hr>
-                                <div class="footer">
-                                    <div class="c-result-card__next-draw">
-                                        <div class="c-result-card__next-draw-details">
-                                            <span class="c-result-card__sub-title c-result-card__prize-label">2 Digits Lucky
-                                            Draw / 1 X 100 </span>
-                                       
-                                            </div>
-                                            <dl class="c-result-card__prize-details">
-                                                <dt class="c-result-card__prize-label"><b>3 Digits Lucky Draw / 1 X 1000 </b></dt>
-                                            </dl>
-
-                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    {{-- row  --}}
-                    <div class="col-sm-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h6 class="card-title p-3 mb-2" style="background-color: rgba(0, 0, 0, 0.05)">
-                                    Internationa1 - Lottery
-                                    <div class="col-sm-12">
-                                        <div class="row">
-                                            <div class="col-sm-6">
-                                                <span>
-                                                    <h5> <?=date('l M d,Y') ?> </h5>
-                                                </span>
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <span>
-                                                    <h5>Time :12.00 PM</h5>
-                                                </span>
-                                            </div>
-                                        </div>
+                </div>
+                    {{-- row  --}}                    
+                    <div class="col-sm-6" style="padding: 20px;">
+                <div class="card">
+                    <div class="card-body">                       
+                            <b>
+                            <table width="100%" style="color:#fff;font-size: 21px;">
+                                <tr align="center">
+                                    <td><strong>Internationa1 - Lottery </strong></td>                                    
+                                </tr>
+                                <tr align="center">
+                                    <td><strong><?=date('l M d,Y') ?></strong></td>                                    
+                                </tr>
+                                <tr align="center">
+                                    <td><strong>Time : 12:00 PM</strong></td>                                    
+                                </tr>
+                            </table>    
+                            </b>                        
+                            <hr>                         
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-12 text-center ">
+                                    <div class="row text-center">
+                                        <table>
+                                            <tr>
+                                                <b>
+                                                <td><strong><div class="center" id="a1_12">00</div></strong></td>
+                                                <td><strong><div class="center" id="a2_12">000</div></strong></td>
+                                            </b>
+                                            </tr>
+                                        </table>                                            
+                                       </div>                                             
                                     </div>
-                                </h6>
-                                <div class="col-sm-12">
-                                    <div class="row">
-                                        <div class="col-sm-12 text-center ">
-                                            <span class="fs-5 fw-bold">A: Jackpot</span>
-                                            <div class="row text-center">
-                                        <div class="col-md-6 col-sm-3 fs-5 fw-bold">
-                                            <div class="center" id="a1_12"><?=rand(10,99)?></div>
+                                </div>                             
+                            <hr>
+                            <div class="footer">
+                                <div class="c-result-card__next-draw">
+                                    <div class="c-result-card__next-draw-details">
+                                        <span class="c-result-card__sub-title c-result-card__prize-label">2 Digits Lucky
+                                        Draw / 1 X 100 </span>                                        
                                         </div>
-                                        <div class="col-md-6 col-sm-3 fs-5 fw-bold">
-                                            <div class="center" id="a2_12"><?=rand(100,999)?></div>
-                                        </div>                                      
-                                    </div>
-                                       
-                                        </div>      
-                                    </div> <!-- Row -->
-                                    <hr>
-                                    <div class="footer">
-                                        <div class="c-result-card__next-draw">
-                                            <div class="c-result-card__next-draw-details">
-                                                <span class="c-result-card__sub-title c-result-card__prize-label">2 Digits Lucky
-                                                Draw / 1 X 100 </span>
-                                          
-                                                </div>
-                                                <dl class="c-result-card__prize-details">
-                                                    <dt class="c-result-card__prize-label"><b>3 Digits Lucky Draw / 1 X 1000 </b></dt>
-                                                </dl>
+                                        <dl class="c-result-card__prize-details">
+                                            <dt class="c-result-card__prize-label"><b>3 Digits Lucky Draw / 1 X 1000 </b></dt>
+                                        </dl>
 
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
                         {{-- row --}}
-                        <div class="col-sm-6">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h6 class="card-title p-3 mb-2" style="background-color: rgba(0, 0, 0, 0.05)">
-                                        Internationa1 - Lottery
-                                        <div class="col-sm-12">
-                                            <div class="row">
-                                                <div class="col-sm-6">
-                                                    <span>
-                                                        <h5> <?=date('l M d,Y') ?> </h5>
-                                                    </span>
-                                                </div>
-                                                <div class="col-sm-6">
-                                                    <span>
-                                                        <h5>Time :03.00 PM</h5>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </h6>
-                                    <div class="col-sm-12">
-                                        <div class="row">
-                                            <div class="col-sm-12 text-center ">
-                                                <span class="fs-5 fw-bold">A: Jackpot</span>
-                                               <div class="row text-center">
-                                        <div class="col-md-6 col-sm-3 fs-5 fw-bold">
-                                            <div class="center" id="a1_3"><?=rand(10,99)?></div>
-                                        </div>
-                                        <div class="col-md-6 col-sm-3 fs-5 fw-bold">
-                                            <div class="center" id="a2_3"><?=rand(100,999)?></div>
-                                        </div>                                      
+                       <div class="col-sm-6" style="padding: 20px;">
+                <div class="card">
+                    <div class="card-body">                       
+                            <b>
+                            <table width="100%" style="color:#fff;font-size: 21px;">
+                                <tr align="center">
+                                    <td><strong>International - Lottery </strong></td>                                    
+                                </tr>
+                                <tr align="center">
+                                    <td><strong><?=date('l M d,Y') ?></strong></td>                                    
+                                </tr>
+                                <tr align="center">
+                                    <td><strong>Time : 3:00 PM</strong></td>                                    
+                                </tr>
+                            </table>    
+                            </b>                        
+                            <hr>                         
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-12 text-center ">
+                                    <div class="row text-center">
+                                        <table>
+                                            <tr>
+                                                <b>
+                                                <td><strong><div class="center" id="a1_3">00</div></strong></td>
+                                                <td><strong><div class="center" id="a2_3">000</div></strong></td>
+                                            </b>
+                                            </tr>
+                                        </table>                                            
+                                       </div>                                             
                                     </div>
-                                            </div>
-                                             
-                                        </div> <!-- Row -->
-
-
-                                        <hr>
-                                        <div class="footer">
-                                            <div class="c-result-card__next-draw">
-                                                <div class="c-result-card__next-draw-details">
-                                                    <span class="c-result-card__sub-title c-result-card__prize-label">2 Digits Lucky
-                                                    Draw / 1 X 50 </span>                            
-                                                    </div>
-                                                    <dl class="c-result-card__prize-details">
-                                                        <dt class="c-result-card__prize-label"><b>3 Digits Lucky Draw / 1 X 400 </b></dt>
-                                                    </dl>
-
-                                                </div>
-                                            </div>
+                                </div>                             
+                            <hr>
+                            <div class="footer">
+                                <div class="c-result-card__next-draw">
+                                    <div class="c-result-card__next-draw-details">
+                                        <span class="c-result-card__sub-title c-result-card__prize-label">2 Digits Lucky
+                                        Draw / 1 X 100 </span>                                        
                                         </div>
+                                        <dl class="c-result-card__prize-details">
+                                            <dt class="c-result-card__prize-label"><b>3 Digits Lucky Draw / 1 X 1000 </b></dt>
+                                        </dl>
+
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
                             {{-- row --}}
-                            <div class="col-sm-6">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h6 class="card-title p-3 mb-2" style="background-color: rgba(0, 0, 0, 0.05)">
-                                            Internationa1 - Lottery
-                                            <div class="col-sm-12">
-                                                <div class="row">
-                                                    <div class="col-sm-6">
-                                                        <span>
-                                                            <h5> <?=date('l M d,Y') ?> </h5>
-                                                        </span>
-                                                    </div>
-                                                    <div class="col-sm-6">
-                                                        <span>
-                                                            <h5>Time :05.00 AM</h5>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </h6>
-                                        <div class="col-sm-12">
-                                            <div class="row">
-                                                <div class="col-sm-12 text-center ">
-                                                    <span class="fs-5 fw-bold">A: Jackpot</span>
-                                                   <div class="row text-center">
-                                        <div class="col-md-6 col-sm-3 fs-5 fw-bold">
-                                            <div class="center" id="a1_5"><?=rand(10,99)?></div>
+                            <div class="col-sm-6" style="padding: 20px;">
+                <div class="card">
+                    <div class="card-body">                       
+                            <b>
+                            <table width="100%" style="color:#fff;font-size: 21px;">
+                                <tr align="center">
+                                    <td><strong>International - Lottery </strong></td>                                    
+                                </tr>
+                                <tr align="center">
+                                    <td><strong><?=date('l M d,Y') ?></strong></td>                                    
+                                </tr>
+                                <tr align="center">
+                                    <td><strong>Time : 5:00 PM</strong></td>                                    
+                                </tr>
+                            </table>    
+                            </b>                        
+                            <hr>                         
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-12 text-center ">
+                                    <div class="row text-center">
+                                        <table>
+                                            <tr>
+                                                <b>
+                                                <td><strong><div class="center" id="a1_5">00</div></strong></td>
+                                                <td><strong><div class="center" id="a2_5">000</div></strong></td>
+                                            </b>
+                                            </tr>
+                                        </table>                                            
+                                       </div>                                             
+                                    </div>
+                                </div>                             
+                            <hr>
+                            <div class="footer">
+                                <div class="c-result-card__next-draw">
+                                    <div class="c-result-card__next-draw-details">
+                                        <span class="c-result-card__sub-title c-result-card__prize-label">2 Digits Lucky
+                                        Draw / 1 X 100 </span>                                        
                                         </div>
-                                        <div class="col-md-6 col-sm-3 fs-5 fw-bold">
-                                            <div class="center" id="a2_5"><?=rand(100,999)?></div>
-                                        </div>                                      
-                                    </div>                                              
-                                            </div> <!-- Row -->
+                                        <dl class="c-result-card__prize-details">
+                                            <dt class="c-result-card__prize-label"><b>3 Digits Lucky Draw / 1 X 1000 </b></dt>
+                                        </dl>
 
-
-                                            <hr>
-                                            <div class="footer">
-                                                <div class="c-result-card__next-draw">
-                                                    <div class="c-result-card__next-draw-details">
-                                                        <span class="c-result-card__sub-title c-result-card__prize-label">2 Digits Lucky
-                                                        Draw / 1 X 100 </span>
-                                                      
-                                                        </div>
-                                                        <dl class="c-result-card__prize-details">
-                                                            <dt class="c-result-card__prize-label"><b>3 Digits Lucky Draw / 1 X 1000 </b></dt>
-                                                        </dl>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                                {{-- row --}}
+                                <div class="col-sm-6" style="padding: 20px;">
+                <div class="card">
+                    <div class="card-body">                       
+                            <b>
+                            <table width="100%" style="color:#fff;font-size: 21px;">
+                                <tr align="center">
+                                    <td><strong>International - Lottery </strong></td>                                    
+                                </tr>
+                                <tr align="center">
+                                    <td><strong><?=date('l M d,Y') ?></strong></td>                                    
+                                </tr>
+                                <tr align="center">
+                                    <td><strong>Time : 7:00 PM</strong></td>                                    
+                                </tr>
+                            </table>    
+                            </b>                        
+                            <hr>                         
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-12 text-center ">
+                                    <div class="row text-center">
+                                        <table>
+                                            <tr>
+                                                <b>
+                                                <td><strong><div class="center" id="a1_7">00</div></strong></td>
+                                                <td><strong><div class="center" id="a2_7">000</div></strong></td>
+                                            </b>
+                                            </tr>
+                                        </table>                                            
+                                       </div>                                             
+                                    </div>
+                                </div>                             
+                            <hr>
+                            <div class="footer">
+                                <div class="c-result-card__next-draw">
+                                    <div class="c-result-card__next-draw-details">
+                                        <span class="c-result-card__sub-title c-result-card__prize-label">2 Digits Lucky
+                                        Draw / 1 X 100 </span>                                        
+                                        </div>
+                                        <dl class="c-result-card__prize-details">
+                                            <dt class="c-result-card__prize-label"><b>3 Digits Lucky Draw / 1 X 1000 </b></dt>
+                                        </dl>
+
+                                    </div>
                                 </div>
-                                {{-- row --}}
-                                <div class="col-sm-6">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <h6 class="card-title p-3 mb-2" style="background-color: rgba(0, 0, 0, 0.05)">
-                                                Internationa1 - Lottery
-                                                <div class="col-sm-12">
-                                                    <div class="row">
-                                                        <div class="col-sm-6">
-                                                            <span>
-                                                                <h5> <?=date('l M d,Y') ?> </h5>
-                                                            </span>
-                                                        </div>
-                                                        <div class="col-sm-6">
-                                                            <span>
-                                                                <h5>Time :07.00 PM</h5>
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </h6>
-                                            <div class="col-sm-12">
-                                                <div class="row">
-                                                    <div class="col-sm-12 text-center ">
-                                                        <span class="fs-5 fw-bold">A: Jackpot</span>
-                                                        <div class="row text-center">
-                                        <div class="col-md-6 col-sm-3 fs-5 fw-bold">
-                                            <div class="center" id="a1_7"><?=rand(10,99)?></div>
-                                        </div>
-                                        <div class="col-md-6 col-sm-3 fs-5 fw-bold">
-                                            <div class="center" id="a2_7"><?=rand(100,999)?></div>
-                                        </div>                                      
-                                    </div>
-                                                    </div>                                                 
-                                                </div> <!-- Row -->
-
-
-                                                <hr>
-                                                <div class="footer">
-                                                    <div class="c-result-card__next-draw">
-                                                        <div class="c-result-card__next-draw-details">
-                                                            <span class="c-result-card__sub-title c-result-card__prize-label">2 Digits Lucky
-                                                            Draw / 1 X 100 </span>
-                                                         
-                                                            </div>
-                                                            <dl class="c-result-card__prize-details">
-                                                                <dt class="c-result-card__prize-label"><b>3 Digits Lucky Draw / 1 X 1000 </b></dt>
-                                                            </dl>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                                     {{-- row --}}
 
 
@@ -354,245 +335,444 @@
                             <div class="container">
     <ul class="c-footer-navigation__state-links o-layout u-list-plain">
       <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="alabama/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Alabama">
-          <span>AL</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="arizona/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Arizona">
-          <span>AZ</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="arkansas/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Arkansas">
-          <span>AR</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="california/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="California">
-          <span>CA</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="colorado/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Colorado">
-          <span>CO</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="connecticut/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Connecticut">
-          <span>CT</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="delaware/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Delaware">
-          <span>DE</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="district-of-columbia/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="District of Columbia">
-          <span>DC</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="florida/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Florida">
-          <span>FL</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="georgia/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Georgia">
-          <span>GA</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="idaho/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Idaho">
-          <span>ID</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="illinois/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Illinois">
-          <span>IL</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="indiana/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Indiana">
-          <span>IN</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="iowa/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Iowa">
-          <span>IA</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="kansas/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Kansas">
-          <span>KS</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="kentucky/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Kentucky">
-          <span>KY</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="louisiana/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Louisiana">
-          <span>LA</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="maine/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Maine">
-          <span>ME</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="maryland/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Maryland">
-          <span>MD</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="massachusetts/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Massachusetts">
-          <span>MA</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="michigan/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Michigan">
-          <span>MI</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="minnesota/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Minnesota">
-          <span>MN</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="mississippi/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Mississippi">
-          <span>MS</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="missouri/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Missouri">
-          <span>MO</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="montana/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Montana">
-          <span>MT</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="nebraska/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Nebraska">
-          <span>NE</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="new-hampshire/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="New Hampshire">
-          <span>NH</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="new-jersey/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="New Jersey">
-          <span>NJ</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="new-mexico/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="New Mexico">
-          <span>NM</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="new-york/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="New York">
-          <span>NY</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="north-carolina/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="North Carolina">
-          <span>NC</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="north-dakota/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="North Dakota">
-          <span>ND</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="ohio/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Ohio">
-          <span>OH</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="oklahoma/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Oklahoma">
-          <span>OK</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="oregon/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Oregon">
-          <span>OR</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="pennsylvania/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Pennsylvania">
-          <span>PA</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="puerto-rico/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Puerto Rico">
-          <span>PR</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="rhode-island/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Rhode Island">
-          <span>RI</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="south-carolina/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="South Carolina">
-          <span>SC</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="south-dakota/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="South Dakota">
-          <span>SD</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="tennessee/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Tennessee">
-          <span>TN</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="texas/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Texas">
-          <span>TX</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="vermont/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Vermont">
-          <span>VT</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="virginia/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Virginia">
-          <span>VA</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="washington/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Washington">
-          <span>WA</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="west-virginia/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="West Virginia">
-          <span>WV</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="wisconsin/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Wisconsin">
-          <span>WI</span>
-        </a>
-      </li>
-      <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-        <a href="wyoming/index.html" class="c-state-link c-state-link--abbr" data-state-link-content="Wyoming">
-          <span>WY</span>
-        </a>
-      </li>
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Afghanistan">
+ 
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Albania">
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Algeria">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Andorra">
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Angola">
+
+ 
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Antigua and Barbuda">
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Argentina">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Armenia">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Bahamas">
+ 
+
+</a></li> 
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Bahrain">
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Bangladesh">
+
+ 
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Barbados">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Belarus">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Belgium">
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Belize">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Benin">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Bhutan">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Cameroon">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Canada">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Cabo Verde">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Central African Republic">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Chad">
+
+ 
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Chile">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Denmark">
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Djibouti">
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Dominica">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Dominican Republic">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="East Timor (see Timor-Leste)">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Ecuador">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Egypt">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="El Salvador">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Equatorial Guinea">
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Gabon">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Gambia">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Georgia">
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Germany">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Ghana">
+
+ 
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Greece">
+
+ 
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Haiti">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="See">
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Honduras">
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Hong Kong">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Hungary">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Iceland">
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="India">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Indonesia">
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Kazakhstan">
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Kenya">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Kiribati">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Laos">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Latvia">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Lebanon">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Lesotho">
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Liberia">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Libya">
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Liechtenstein">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Lithuania">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Luxembourg">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Macau">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Macedonia">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Madagascar">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Malawi">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Malaysia">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Maldives">
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Mali">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Malta">
+
+ 
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Marshall Islands">
+
+ 
+</a></li> 
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Mauritania">
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Namibia">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Nauru">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Nepal">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Netherlands">
+
+ </a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Saint Kitts and Nevis">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Saint Lucia">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Vincent and the Grenadines">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Samoa">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Singapore">
+
+ 
+
+</a></li>
+<li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
+<a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Slovakia">
+
+ 
+</a></li>
+ 
+     
     </ul>
                             {{--  footer  --}}
 
