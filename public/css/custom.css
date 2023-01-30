@@ -11,7 +11,7 @@
     color: black;
     font-weight: bold;
 }
-.mb-20{
+.mb-20 {
     margin-bottom: 20px;
 }
 .jcc-r {
@@ -23,6 +23,22 @@
     display: flex;
     justify-content: flex-start;
 }
+
+@media only screen and (max-width: 480px) {
+    .jcc-r {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .jcc-l {
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
+
 hr {
     margin: 1rem 0;
     color: inherit;
