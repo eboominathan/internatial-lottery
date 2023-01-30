@@ -1,29 +1,38 @@
-.border-right{
+.border-right {
     border-right: 1px solid black;
-    }
+}
 .center {
-       
-width: 81px;
+    width: 81px;
     line-height: 73px;
     border-radius: 50%;
     text-align: center;
     font-size: 37px;
-    margin: -8px 46px;
     background: #fff;
     color: black;
     font-weight: bold;
- 
-  }
-  hr {
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.jcc-r {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.jcc-l {
+    display: flex;
+    justify-content: flex-start;
+}
+hr {
     margin: 1rem 0;
     color: inherit;
     background-color: black;
     border: 0;
     opacity: 0.25;
-  }
-  .alert:empty{
+}
+.alert:empty {
     display: none;
-  }
+}
 
 .c-result-card__prize-details {
     -ms-flex-pack: justify;
@@ -36,7 +45,7 @@ width: 81px;
     justify-content: space-between;
     margin-bottom: 0;
     padding: 16px;
-    width: 100%
+    width: 100%;
 }
 
 .c-result-card__prize-value {
@@ -46,27 +55,27 @@ width: 81px;
     font-weight: 700;
     line-height: 1.1428571;
     margin-left: 8px;
-    text-align: right
+    text-align: right;
 }
 
 .c-result-card__prize-sub-value {
     display: block;
     font-size: 14px;
-    font-size: .7777778rem;
+    font-size: 0.7777778rem;
     font-weight: 400;
-    line-height: 1.2857143
+    line-height: 1.2857143;
 }
 
 .c-result-card__prize-label {
     /*color: #0a0827;*/
     font-size: 16px;
-    font-size: .8888889rem;
+    font-size: 0.8888889rem;
     font-weight: 500;
-    line-height: 1.5
+    line-height: 1.5;
 }
 
 .c-result-card__prize-label:before {
-    background-image: url('/images/dollar.svg');
+    background-image: url("/images/dollar.svg");
     background-position: 50% 50%;
     background-size: 24px 24px;
     content: "";
@@ -74,11 +83,8 @@ width: 81px;
     height: 24px;
     margin-right: 8px;
     vertical-align: top;
-    width: 24px
+    width: 24px;
 }
-
-
-
 
 .c-result-card__next-draw .c-result-card__next-draw-details,
 .c-result-card__next-draw .c-result-card__prize-details {
@@ -87,37 +93,40 @@ width: 81px;
     display: flex;
     justify-content: space-between;
     margin: 0;
-    width: 100%
+    width: 100%;
 }
 
 .c-result-card__next-draw .c-result-card__prize-details {
     background-color: initial;
     border-bottom: none;
     border-top: 1px solid #c4c3cc;
-    padding: 12px 0
+    padding: 12px 0;
 }
 
 .c-result-card__next-draw .c-result-card__next-draw-details {
     /*color: #0a0827;*/
-    padding-bottom: 8px
+    padding-bottom: 8px;
 }
 
-.c-result-card__next-draw .c-result-card__next-draw-details .c-result-card__sub-title {
+.c-result-card__next-draw
+    .c-result-card__next-draw-details
+    .c-result-card__sub-title {
     font-size: 16px;
-    font-size: .8888889rem;
+    font-size: 0.8888889rem;
     font-weight: 700;
-    line-height: 1.5
+    line-height: 1.5;
 }
 
-.c-result-card__next-draw .c-result-card__next-draw-details .c-result-card__title {
+.c-result-card__next-draw
+    .c-result-card__next-draw-details
+    .c-result-card__title {
     font-size: 14px;
-    font-size: .7777778rem;
+    font-size: 0.7777778rem;
     font-weight: 500;
-    line-height: 1.7142857
+    line-height: 1.7142857;
 }
 
 .c-result-card__next-draw:after {
-
     background-position: top 50% right -64px;
     background-repeat: no-repeat;
     content: "";
@@ -126,28 +135,27 @@ width: 81px;
     position: absolute;
     top: 0;
     width: 100%;
-    z-index: -1
+    z-index: -1;
 }
 
 .c-result-card__cta {
-    margin-bottom: 16px
+    margin-bottom: 16px;
 }
 
-
-
-.container-fluid{
+.container-fluid {
     /*background-image: url('{{asset('images/background.jpg')}}');*/
-        background: #8a2387;
-        background: linear-gradient(320deg,#f27121,#e94057,#8a2387);
-    }
-    .card{
-        background: grey !important;
-        border-radius: 16px;
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(5px);
-        -webkit-backdrop-filter: blur(5px);
-        border: 1px solid rgba(255, 255, 255, 0.3);
-    }
-    body{
-    font-family: "Inter",-apple-system,"Nunito",BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
-    }
+    background: #8a2387;
+    background: linear-gradient(320deg, #f27121, #e94057, #8a2387);
+}
+.card {
+    background: grey !important;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+body {
+    font-family: "Inter", -apple-system, "Nunito", BlinkMacSystemFont,
+        "Segoe UI", Roboto, sans-serif;
+}
