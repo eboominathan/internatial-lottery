@@ -3,6 +3,14 @@
     hr {
         background-color: black;
     }
+
+    @media (min-width: 768px) .col-md-12 {
+        margin: 3px 48px !important;
+    }
+
+    @media (min-width: 1440px) .col-md-12 {
+        margin: 3px 48px !important;
+    }
 </style>
 @section('content')
 
@@ -22,36 +30,36 @@
         </strong>
         <div align="left">Lottery History</div>
     </div>
-    <div class="row">
-        <div class="col-sm-6" style="padding: 20px;">
-            <div class="card">
-                <div class="card-body">
-                    <b>
-                        <table width="100%" style="color:#fff;font-size: 21px;">
-                            <tr align="center">
-                                <td><strong>Internationa1 - Lottery </strong></td>
-                            </tr>
-                            <tr align="center">
-                                <td><strong><?= date('l M d,Y') ?></strong></td>
-                            </tr>
-                            <tr align="center">
-                                <td><strong>Time : 8:00 AM</strong></td>
-                            </tr>
-                        </table>
-                    </b>
-                    <hr>
-                    <div class="container">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6" style="padding: 20px;">
+                <div class="card">
+                    <div class="card-body">
+                        <b>
+                            <table width="100%" style="color:#fff;font-size: 21px;">
+                                <tr align="center">
+                                    <td><strong>Internationa1 - Lottery </strong></td>
+                                </tr>
+                                <tr align="center">
+                                    <td><strong><?= date('l M d,Y') ?></strong></td>
+                                </tr>
+                                <tr align="center">
+                                    <td><strong>Time : 8:00 AM</strong></td>
+                                </tr>
+                            </table>
+                        </b>
+                        <hr>
                         <div class="col-md-12">
-                            <div class="row">
+                            <div class="row mb-20">
                                 <div class="col-md-12 text-center ">
                                     <div class="row text-center">
                                         <div class="col-md-6">
-                                            <strong>
+                                            <strong class="jcc-r">
                                                 <div class="center" id="a1_8">00</div>
                                             </strong>
                                         </div>
                                         <div class="col-md-6">
-                                            <strong>
+                                            <strong class="jcc-l">
                                                 <div class="center" id="a2_8">000</div>
                                             </strong>
                                         </div>
@@ -59,15 +67,15 @@
                                 </div>
                             </div>
                             <hr>
-                            <div class="footer">
-                                <div class="c-result-card__next-draw">
-                                    <div class="c-result-card__next-draw-details">
+                            <div class="footer" align="center">
+                                <div class="c-result-card__next-draw" align="center">
+                                    <div class="c-result-card__next-draw-details d-flex justify-content-center">
                                         <span class="c-result-card__sub-title c-result-card__prize-label">2 Digits Lucky
                                             Draw / 1 X 100 </span>
                                     </div>
-                                    <dl class="c-result-card__prize-details">
-                                        <dt class="c-result-card__prize-label"><b>3 Digits Lucky Draw / 1 X 1000 </b></dt>
-                                    </dl>
+                                    <div class="c-result-card__prize-details d-flex justify-content-center">
+                                        <span class="c-result-card__prize-label"><b>3 Digits Lucky Draw / 1 X 1000 </b></span>
+                                    </div>
 
                                 </div>
                             </div>
@@ -75,284 +83,272 @@
                     </div>
                 </div>
             </div>
-        </div>
-        {{-- row  --}}
-        <div class="col-sm-6" style="padding: 20px;">
-            <div class="card">
-                <div class="card-body">
-                    <b>
-                        <table width="100%" style="color:#fff;font-size: 21px;">
-                            <tr align="center">
-                                <td><strong>Internationa1 - Lottery </strong></td>
-                            </tr>
-                            <tr align="center">
-                                <td><strong><?= date('l M d,Y') ?></strong></td>
-                            </tr>
-                            <tr align="center">
-                                <td><strong>Time : 10:00 AM</strong></td>
-                            </tr>
-                        </table>
-                    </b>
-                    <hr>
-                    <div class="col-md-12">
-                        <div class="row">
-                            <div class="col-md-12 text-center ">
-                                <div class="row text-center">
-                                    <table>
-                                        <tr>
-                                            <b>
-                                                <td><strong>
-                                                        <div class="center" id="a1_10">00</div>
-                                                    </strong></td>
-                                                <td><strong>
-                                                        <div class="center" id="a2_10">000</div>
-                                                    </strong></td>
-                                            </b>
-                                        </tr>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
+            <div class="col-sm-6" style="padding: 20px;">
+                <div class="card">
+                    <div class="card-body">
+                        <b>
+                            <table width="100%" style="color:#fff;font-size: 21px;">
+                                <tr align="center">
+                                    <td><strong>Internationa1 - Lottery </strong></td>
+                                </tr>
+                                <tr align="center">
+                                    <td><strong><?= date('l M d,Y') ?></strong></td>
+                                </tr>
+                                <tr align="center">
+                                    <td><strong>Time : 10:00 AM</strong></td>
+                                </tr>
+                            </table>
+                        </b>
                         <hr>
-                        <div class="footer">
-                            <div class="c-result-card__next-draw">
-                                <div class="c-result-card__next-draw-details">
-                                    <span class="c-result-card__sub-title c-result-card__prize-label">2 Digits Lucky
-                                        Draw / 1 X 100 </span>
+                        <div class="col-md-12">
+                            <div class="row mb-20">
+                                <div class="col-md-12 text-center ">
+                                    <div class="row text-center">
+                                        <div class="col-md-6">
+                                            <strong class="jcc-r">
+                                                <div class="center" id="3">00</div>
+                                            </strong>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <strong class="jcc-l">
+                                                <div class="center" id="a2_12">000</div>
+                                            </strong>
+                                        </div>
+                                    </div>
                                 </div>
-                                <dl class="c-result-card__prize-details">
-                                    <dt class="c-result-card__prize-label"><b>3 Digits Lucky Draw / 1 X 1000 </b></dt>
-                                </dl>
+                            </div>
+                            <hr>
+                            <div class="footer" align="center">
+                                <div class="c-result-card__next-draw" align="center">
+                                    <div class="c-result-card__next-draw-details d-flex justify-content-center">
+                                        <span class="c-result-card__sub-title c-result-card__prize-label">2 Digits Lucky
+                                            Draw / 1 X 100 </span>
+                                    </div>
+                                    <div class="c-result-card__prize-details d-flex justify-content-center">
+                                        <span class="c-result-card__prize-label"><b>3 Digits Lucky Draw / 1 X 1000 </b></span>
+                                    </div>
 
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        {{-- row  --}}
-        <div class="col-sm-6" style="padding: 20px;">
-            <div class="card">
-                <div class="card-body">
-                    <b>
-                        <table width="100%" style="color:#fff;font-size: 21px;">
-                            <tr align="center">
-                                <td><strong>Internationa1 - Lottery </strong></td>
-                            </tr>
-                            <tr align="center">
-                                <td><strong><?= date('l M d,Y') ?></strong></td>
-                            </tr>
-                            <tr align="center">
-                                <td><strong>Time : 12:00 PM</strong></td>
-                            </tr>
-                        </table>
-                    </b>
-                    <hr>
-                    <div class="col-md-12">
-                        <div class="row">
-                            <div class="col-md-12 text-center ">
-                                <div class="row text-center">
-                                    <table>
-                                        <tr>
-                                            <b>
-                                                <td><strong>
-                                                        <div class="center" id="a1_12">00</div>
-                                                    </strong></td>
-                                                <td><strong>
-                                                        <div class="center" id="a2_12">000</div>
-                                                    </strong></td>
-                                            </b>
-                                        </tr>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
+            <div class="col-sm-6" style="padding: 20px;">
+                <div class="card">
+                    <div class="card-body">
+                        <b>
+                            <table width="100%" style="color:#fff;font-size: 21px;">
+                                <tr align="center">
+                                    <td><strong>Internationa1 - Lottery </strong></td>
+                                </tr>
+                                <tr align="center">
+                                    <td><strong><?= date('l M d,Y') ?></strong></td>
+                                </tr>
+                                <tr align="center">
+                                    <td><strong>Time : 12:00 PM</strong></td>
+                                </tr>
+                            </table>
+                        </b>
                         <hr>
-                        <div class="footer">
-                            <div class="c-result-card__next-draw">
-                                <div class="c-result-card__next-draw-details">
-                                    <span class="c-result-card__sub-title c-result-card__prize-label">2 Digits Lucky
-                                        Draw / 1 X 100 </span>
+                        <div class="col-md-12">
+                            <div class="row mb-20">
+                                <div class="col-md-12 text-center ">
+                                    <div class="row text-center">
+                                        <div class="col-md-6">
+                                            <strong class="jcc-r">
+                                                <div class="center" id="a1_12">00</div>
+                                            </strong>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <strong class="jcc-l">
+                                                <div class="center" id="a2_10">000</div>
+                                            </strong>
+                                        </div>
+                                    </div>
                                 </div>
-                                <dl class="c-result-card__prize-details">
-                                    <dt class="c-result-card__prize-label"><b>3 Digits Lucky Draw / 1 X 1000 </b></dt>
-                                </dl>
+                            </div>
+                            <hr>
+                            <div class="footer" align="center">
+                                <div class="c-result-card__next-draw" align="center">
+                                    <div class="c-result-card__next-draw-details d-flex justify-content-center">
+                                        <span class="c-result-card__sub-title c-result-card__prize-label">2 Digits Lucky
+                                            Draw / 1 X 100 </span>
+                                    </div>
+                                    <div class="c-result-card__prize-details d-flex justify-content-center">
+                                        <span class="c-result-card__prize-label"><b>3 Digits Lucky Draw / 1 X 1000 </b></span>
+                                    </div>
 
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        {{-- row --}}
-        <div class="col-sm-6" style="padding: 20px;">
-            <div class="card">
-                <div class="card-body">
-                    <b>
-                        <table width="100%" style="color:#fff;font-size: 21px;">
-                            <tr align="center">
-                                <td><strong>International - Lottery </strong></td>
-                            </tr>
-                            <tr align="center">
-                                <td><strong><?= date('l M d,Y') ?></strong></td>
-                            </tr>
-                            <tr align="center">
-                                <td><strong>Time : 3:00 PM</strong></td>
-                            </tr>
-                        </table>
-                    </b>
-                    <hr>
-                    <div class="col-md-12">
-                        <div class="row">
-                            <div class="col-md-12 text-center ">
-                                <div class="row text-center">
-                                    <table>
-                                        <tr>
-                                            <b>
-                                                <td><strong>
-                                                        <div class="center" id="a1_3">00</div>
-                                                    </strong></td>
-                                                <td><strong>
-                                                        <div class="center" id="a2_3">000</div>
-                                                    </strong></td>
-                                            </b>
-                                        </tr>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
+            {{-- row --}}
+            <div class="col-sm-6" style="padding: 20px;">
+                <div class="card">
+                    <div class="card-body">
+                        <b>
+                            <table width="100%" style="color:#fff;font-size: 21px;">
+                                <tr align="center">
+                                    <td><strong>International - Lottery </strong></td>
+                                </tr>
+                                <tr align="center">
+                                    <td><strong><?= date('l M d,Y') ?></strong></td>
+                                </tr>
+                                <tr align="center">
+                                    <td><strong>Time : 3:00 PM</strong></td>
+                                </tr>
+                            </table>
+                        </b>
                         <hr>
-                        <div class="footer">
-                            <div class="c-result-card__next-draw">
-                                <div class="c-result-card__next-draw-details">
-                                    <span class="c-result-card__sub-title c-result-card__prize-label">2 Digits Lucky
-                                        Draw / 1 X 100 </span>
+                        <div class="col-md-12">
+                        <div class="row mb-20">
+                                <div class="col-md-12 text-center ">
+                                    <div class="row text-center">
+                                        <div class="col-md-6">
+                                            <strong class="jcc-r">
+                                                <div class="center" id="a1_13">00</div>
+                                            </strong>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <strong class="jcc-l">
+                                                <div class="center" id="a2_13">000</div>
+                                            </strong>
+                                        </div>
+                                    </div>
                                 </div>
-                                <dl class="c-result-card__prize-details">
-                                    <dt class="c-result-card__prize-label"><b>3 Digits Lucky Draw / 1 X 1000 </b></dt>
-                                </dl>
+                            </div>
+                            <hr>
+                            <div class="footer" align="center">
+                                <div class="c-result-card__next-draw" align="center">
+                                    <div class="c-result-card__next-draw-details d-flex justify-content-center">
+                                        <span class="c-result-card__sub-title c-result-card__prize-label">2 Digits Lucky
+                                            Draw / 1 X 100 </span>
+                                    </div>
+                                    <div class="c-result-card__prize-details d-flex justify-content-center">
+                                        <span class="c-result-card__prize-label"><b>3 Digits Lucky Draw / 1 X 1000 </b></span>
+                                    </div>
 
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        {{-- row --}}
-        <div class="col-sm-6" style="padding: 20px;">
-            <div class="card">
-                <div class="card-body">
-                    <b>
-                        <table width="100%" style="color:#fff;font-size: 21px;">
-                            <tr align="center">
-                                <td><strong>International - Lottery </strong></td>
-                            </tr>
-                            <tr align="center">
-                                <td><strong><?= date('l M d,Y') ?></strong></td>
-                            </tr>
-                            <tr align="center">
-                                <td><strong>Time : 5:00 PM</strong></td>
-                            </tr>
-                        </table>
-                    </b>
-                    <hr>
-                    <div class="col-md-12">
-                        <div class="row">
-                            <div class="col-md-12 text-center ">
-                                <div class="row text-center">
-                                    <table>
-                                        <tr>
-                                            <b>
-                                                <td><strong>
-                                                        <div class="center" id="a1_5">00</div>
-                                                    </strong></td>
-                                                <td><strong>
-                                                        <div class="center" id="a2_5">000</div>
-                                                    </strong></td>
-                                            </b>
-                                        </tr>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
+            {{-- row --}}
+            <div class="col-sm-6" style="padding: 20px;">
+                <div class="card">
+                    <div class="card-body">
+                        <b>
+                            <table width="100%" style="color:#fff;font-size: 21px;">
+                                <tr align="center">
+                                    <td><strong>International - Lottery </strong></td>
+                                </tr>
+                                <tr align="center">
+                                    <td><strong><?= date('l M d,Y') ?></strong></td>
+                                </tr>
+                                <tr align="center">
+                                    <td><strong>Time : 5:00 PM</strong></td>
+                                </tr>
+                            </table>
+                        </b>
                         <hr>
-                        <div class="footer">
-                            <div class="c-result-card__next-draw">
-                                <div class="c-result-card__next-draw-details">
-                                    <span class="c-result-card__sub-title c-result-card__prize-label">2 Digits Lucky
-                                        Draw / 1 X 100 </span>
+                        <div class="col-md-12">
+                        <div class="row mb-20">
+                                <div class="col-md-12 text-center ">
+                                    <div class="row text-center">
+                                        <div class="col-md-6">
+                                            <strong class="jcc-r">
+                                                <div class="center" id="a1_5">00</div>
+                                            </strong>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <strong class="jcc-l">
+                                                <div class="center" id="a2_5">000</div>
+                                            </strong>
+                                        </div>
+                                    </div>
                                 </div>
-                                <dl class="c-result-card__prize-details">
-                                    <dt class="c-result-card__prize-label"><b>3 Digits Lucky Draw / 1 X 1000 </b></dt>
-                                </dl>
+                            </div>
+                            <hr>
+                            <div class="footer" align="center">
+                                <div class="c-result-card__next-draw" align="center">
+                                    <div class="c-result-card__next-draw-details d-flex justify-content-center">
+                                        <span class="c-result-card__sub-title c-result-card__prize-label">2 Digits Lucky
+                                            Draw / 1 X 100 </span>
+                                    </div>
+                                    <div class="c-result-card__prize-details d-flex justify-content-center">
+                                        <span class="c-result-card__prize-label"><b>3 Digits Lucky Draw / 1 X 1000 </b></span>
+                                    </div>
 
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div> {{-- row --}}
-        <div class="col-sm-6" style="padding: 20px;">
-            <div class="card">
-                <div class="card-body">
-                    <b>
-                        <table width="100%" style="color:#fff;font-size: 21px;">
-                            <tr align="center">
-                                <td><strong>International - Lottery </strong></td>
-                            </tr>
-                            <tr align="center">
-                                <td><strong><?= date('l M d,Y') ?></strong></td>
-                            </tr>
-                            <tr align="center">
-                                <td><strong>Time : 7:00 PM</strong></td>
-                            </tr>
-                        </table>
-                    </b>
-                    <hr>
-                    <div class="col-md-12">
-                        <div class="row">
-                            <div class="col-md-12 text-center ">
-                                <div class="row text-center">
-                                    <table>
-                                        <tr>
-                                            <b>
-                                                <td><strong>
-                                                        <div class="center" id="a1_7">00</div>
-                                                    </strong></td>
-                                                <td><strong>
-                                                        <div class="center" id="a2_7">000</div>
-                                                    </strong></td>
-                                            </b>
-                                        </tr>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
+            </div> {{-- row --}}
+            <div class="col-sm-6" style="padding: 20px;">
+                <div class="card">
+                    <div class="card-body">
+                        <b>
+                            <table width="100%" style="color:#fff;font-size: 21px;">
+                                <tr align="center">
+                                    <td><strong>International - Lottery </strong></td>
+                                </tr>
+                                <tr align="center">
+                                    <td><strong><?= date('l M d,Y') ?></strong></td>
+                                </tr>
+                                <tr align="center">
+                                    <td><strong>Time : 7:00 PM</strong></td>
+                                </tr>
+                            </table>
+                        </b>
                         <hr>
-                        <div class="footer">
-                            <div class="c-result-card__next-draw">
-                                <div class="c-result-card__next-draw-details">
-                                    <span class="c-result-card__sub-title c-result-card__prize-label">2 Digits Lucky
-                                        Draw / 1 X 100 </span>
+                        <div class="col-md-12">
+                        <div class="row mb-20">
+                                <div class="col-md-12 text-center ">
+                                    <div class="row text-center">
+                                        <div class="col-md-6">
+                                            <strong class="jcc-r">
+                                                <div class="center" id="a1_7">00</div>
+                                            </strong>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <strong class="jcc-l">
+                                                <div class="center" id="a2_7">000</div>
+                                            </strong>
+                                        </div>
+                                    </div>
                                 </div>
-                                <dl class="c-result-card__prize-details">
-                                    <dt class="c-result-card__prize-label"><b>3 Digits Lucky Draw / 1 X 1000 </b></dt>
-                                </dl>
+                            </div>
+                            <hr>
+                            <div class="footer" align="center">
+                                <div class="c-result-card__next-draw" align="center">
+                                    <div class="c-result-card__next-draw-details d-flex justify-content-center">
+                                        <span class="c-result-card__sub-title c-result-card__prize-label">2 Digits Lucky
+                                            Draw / 1 X 100 </span>
+                                    </div>
+                                    <div class="c-result-card__prize-details d-flex justify-content-center">
+                                        <span class="c-result-card__prize-label"><b>3 Digits Lucky Draw / 1 X 1000 </b></span>
+                                    </div>
 
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        {{-- row --}}
+            {{-- row --}}
 
 
 
 
 
 
-    </div> <!-- Big row -->
+        </div> <!-- Big row -->
+    </div>
 </div>
 
 
@@ -14647,6 +14643,8 @@
             color: #0a0827cc;
             margin: 0 0 40px;
         }
+
+
 
         .c-definition dd:last-of-type,
         .c-definition dd:last-of-type>:last-child {
@@ -30310,7 +30308,7 @@
     c0,0.8-0.3,1.5-0.8,2C29.5,30.1,28.7,30.3,27.7,30.3z"></path>
                             <path fill="#FFFFFF" fill-opacity="0.2" d="M40.7,0c-4,0-7.3,3.3-7.3,7.3s3.3,7.3,7.3,7.3S48,11.3,48,7.3c0-1.9-0.8-3.8-2.1-5.2
     S42.6,0,40.7,0L40.7,0z"></path>
-                            <polygon fill="#FFFFFF" points="44.9,8.3 41.7,8.3 41.7,11.5 39.7,11.5 39.7,8.3 36.5,8.3 36.5,6.3 39.7,6.3 39.7,3.1 41.7,3.1 
+                            <polygon fill="#FFFFFF" points="44.9,8.3 41.7,8.3 41.7,11.5 39.7,11.5 39.7,8.3 36.5,8.3 36.5,6.3 39.7,6.3 39.7,3.1 41.7,3.1
     41.7,6.3 44.9,6.3 "></polygon>
                             <path fill="#FFFFFF" fill-opacity="0.2" d="M44.4,16c3.8,9.7,0.4,20.7-8.3,26.4s-20.2,4.5-27.6-2.8S-0.1,20.7,5.6,12
     S22.4-0.2,32.1,3.6c0.3-0.7,0.6-1.3,1.1-1.8C22.5-2.5,10.4,1.2,4,10.7S-1,32.9,7,41s20.7,9.3,30.3,3s13.2-18.5,8.9-29.1
