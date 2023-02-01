@@ -106,12 +106,12 @@
                                     <div class="row text-center">
                                         <div class="col-md-6 col-6">
                                             <strong class="jcc-r">
-                                                <div class="center" id="a1_12">00</div>
+                                                <div class="center" id="a1_10">00</div>
                                             </strong>
                                         </div>
                                         <div class="col-md-6 col-6">
                                             <strong class="jcc-l">
-                                                <div class="center" id="a2_12">000</div>
+                                                <div class="center" id="a2_10">000</div>
                                             </strong>
                                         </div>
                                     </div>
@@ -157,12 +157,12 @@
                                     <div class="row text-center">
                                         <div class="col-md-6 col-6">
                                             <strong class="jcc-r">
-                                                <div class="center" id="a1_10">00</div>
+                                                <div class="center" id="a1_12">00</div>
                                             </strong>
                                         </div>
                                         <div class="col-md-6 col-6">
                                             <strong class="jcc-l">
-                                                <div class="center" id="a2_10">000</div>
+                                                <div class="center" id="a2_12">000</div>
                                             </strong>
                                         </div>
                                     </div>
@@ -209,12 +209,12 @@
                                     <div class="row text-center">
                                         <div class="col-md-6 col-6">
                                             <strong class="jcc-r">
-                                                <div class="center" id="a1_13">00</div>
+                                                <div class="center" id="a1_3">00</div>
                                             </strong>
                                         </div>
                                         <div class="col-md-6 col-6">
                                             <strong class="jcc-l">
-                                                <div class="center" id="a2_13">000</div>
+                                                <div class="center" id="a2_3">000</div>
                                             </strong>
                                         </div>
                                     </div>
