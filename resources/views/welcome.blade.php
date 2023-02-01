@@ -26,7 +26,7 @@
     <div class="row box" align="center" style="background:rgba(1,1,1,0.5);padding: 17px;">
         <strong>
             <h2><b>WORLD WIDE LOTTERY<b> </h2>
-            <h6>Playing in 7B Country,/25 Millions Players daily</h6>
+            <h6>Playing in 78 Country,/25 Millions Players daily</h6>
         </strong>
         <div align="left">Lottery History</div>
     </div>
