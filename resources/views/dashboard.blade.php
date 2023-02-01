@@ -53,12 +53,12 @@
                             <div class="row mb-20">
                                 <div class="col-md-12 text-center ">
                                     <div class="row text-center">
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 col-6">
                                             <strong class="jcc-r">
                                                 <div class="center" id="a1_8">00</div>
                                             </strong>
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 col-6">
                                             <strong class="jcc-l">
                                                 <div class="center" id="a2_8">000</div>
                                             </strong>
@@ -71,7 +71,7 @@
                                 <div class="c-result-card__next-draw" align="center">
                                     <div class="c-result-card__next-draw-details d-flex justify-content-center">
                                         <span class="c-result-card__sub-title c-result-card__prize-label">2 Digits Lucky
-                                            Draw / 1 X 100 </span>
+                                            Draw / 1 X 100 &nbsp;&nbsp;</span>
                                     </div>
                                     <div class="c-result-card__prize-details d-flex justify-content-center">
                                         <span class="c-result-card__prize-label"><b>3 Digits Lucky Draw / 1 X 1000 </b></span>
@@ -104,12 +104,12 @@
                             <div class="row mb-20">
                                 <div class="col-md-12 text-center ">
                                     <div class="row text-center">
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 col-6">
                                             <strong class="jcc-r">
-                                                <div class="center" id="3">00</div>
+                                                <div class="center" id="a1_12">00</div>
                                             </strong>
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 col-6">
                                             <strong class="jcc-l">
                                                 <div class="center" id="a2_12">000</div>
                                             </strong>
@@ -122,7 +122,7 @@
                                 <div class="c-result-card__next-draw" align="center">
                                     <div class="c-result-card__next-draw-details d-flex justify-content-center">
                                         <span class="c-result-card__sub-title c-result-card__prize-label">2 Digits Lucky
-                                            Draw / 1 X 100 </span>
+                                            Draw / 1 X 100 &nbsp;&nbsp;</span>
                                     </div>
                                     <div class="c-result-card__prize-details d-flex justify-content-center">
                                         <span class="c-result-card__prize-label"><b>3 Digits Lucky Draw / 1 X 1000 </b></span>
@@ -155,12 +155,12 @@
                             <div class="row mb-20">
                                 <div class="col-md-12 text-center ">
                                     <div class="row text-center">
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 col-6">
                                             <strong class="jcc-r">
-                                                <div class="center" id="a1_12">00</div>
+                                                <div class="center" id="a1_10">00</div>
                                             </strong>
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 col-6">
                                             <strong class="jcc-l">
                                                 <div class="center" id="a2_10">000</div>
                                             </strong>
@@ -173,7 +173,7 @@
                                 <div class="c-result-card__next-draw" align="center">
                                     <div class="c-result-card__next-draw-details d-flex justify-content-center">
                                         <span class="c-result-card__sub-title c-result-card__prize-label">2 Digits Lucky
-                                            Draw / 1 X 100 </span>
+                                            Draw / 1 X 100 &nbsp;&nbsp;</span>
                                     </div>
                                     <div class="c-result-card__prize-details d-flex justify-content-center">
                                         <span class="c-result-card__prize-label"><b>3 Digits Lucky Draw / 1 X 1000 </b></span>
@@ -207,12 +207,12 @@
                         <div class="row mb-20">
                                 <div class="col-md-12 text-center ">
                                     <div class="row text-center">
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 col-6">
                                             <strong class="jcc-r">
                                                 <div class="center" id="a1_13">00</div>
                                             </strong>
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 col-6">
                                             <strong class="jcc-l">
                                                 <div class="center" id="a2_13">000</div>
                                             </strong>
@@ -225,7 +225,7 @@
                                 <div class="c-result-card__next-draw" align="center">
                                     <div class="c-result-card__next-draw-details d-flex justify-content-center">
                                         <span class="c-result-card__sub-title c-result-card__prize-label">2 Digits Lucky
-                                            Draw / 1 X 100 </span>
+                                            Draw / 1 X 100 &nbsp;&nbsp;</span>
                                     </div>
                                     <div class="c-result-card__prize-details d-flex justify-content-center">
                                         <span class="c-result-card__prize-label"><b>3 Digits Lucky Draw / 1 X 1000 </b></span>
@@ -259,12 +259,12 @@
                         <div class="row mb-20">
                                 <div class="col-md-12 text-center ">
                                     <div class="row text-center">
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 col-6">
                                             <strong class="jcc-r">
                                                 <div class="center" id="a1_5">00</div>
                                             </strong>
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 col-6">
                                             <strong class="jcc-l">
                                                 <div class="center" id="a2_5">000</div>
                                             </strong>
@@ -277,7 +277,7 @@
                                 <div class="c-result-card__next-draw" align="center">
                                     <div class="c-result-card__next-draw-details d-flex justify-content-center">
                                         <span class="c-result-card__sub-title c-result-card__prize-label">2 Digits Lucky
-                                            Draw / 1 X 100 </span>
+                                            Draw / 1 X 100 &nbsp;&nbsp;</span>
                                     </div>
                                     <div class="c-result-card__prize-details d-flex justify-content-center">
                                         <span class="c-result-card__prize-label"><b>3 Digits Lucky Draw / 1 X 1000 </b></span>
@@ -310,12 +310,12 @@
                         <div class="row mb-20">
                                 <div class="col-md-12 text-center ">
                                     <div class="row text-center">
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 col-6">
                                             <strong class="jcc-r">
                                                 <div class="center" id="a1_7">00</div>
                                             </strong>
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 col-6">
                                             <strong class="jcc-l">
                                                 <div class="center" id="a2_7">000</div>
                                             </strong>
@@ -328,7 +328,7 @@
                                 <div class="c-result-card__next-draw" align="center">
                                     <div class="c-result-card__next-draw-details d-flex justify-content-center">
                                         <span class="c-result-card__sub-title c-result-card__prize-label">2 Digits Lucky
-                                            Draw / 1 X 100 </span>
+                                            Draw / 1 X 100 &nbsp;&nbsp;</span>
                                     </div>
                                     <div class="c-result-card__prize-details d-flex justify-content-center">
                                         <span class="c-result-card__prize-label"><b>3 Digits Lucky Draw / 1 X 1000 </b></span>
