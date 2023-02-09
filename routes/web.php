@@ -19,6 +19,11 @@ Route::get('signout', [CustomAuthController::class, 'signOut'])->name('signout')
 Route::controller(LotteryController::class)->group(function () {
     Route::get('lottery/results', 'results')->name('Lottery: Result Lottery');
 });
+Route::controller(LotteryController::class)->group(function () {
+    Route::get('lottery/view', 'index')->name('Lottery: View Lottery');
+    Route::post('lottery/view', 'index')->name('Lottery: Filter Lottery');
+});
+
 
 Route::group(['middleware' => 'auth'], function () {
     Route::get('dashboard', [CustomAuthController::class, 'dashboard']);
@@ -26,9 +31,5 @@ Route::group(['middleware' => 'auth'], function () {
         Route::get('lottery/create', 'create')->name('Lottery: Create Lottery');
         Route::post('lottery/store', 'store')->name('Lottery: Store Lottery');
         Route::post('lottery/paginate', 'paginate')->name('Lottery: Paginate Lottery');
-        Route::get('lottery/view', 'index')->name('Lottery: View Lottery');
-        Route::post('lottery/view', 'index')->name('Lottery: Filter Lottery');
     });
 });
-
-
