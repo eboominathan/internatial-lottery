@@ -68,7 +68,7 @@
         placeholder="Search"
         aria-label="Search"
         /> --}}
-        <a class="nav-link" href="{{ route('lottery/view') }}">Results</a>
+        <a class="  btn btn-warning" href="{{ url('lottery/view') }}">Results</a>
         @guest
         @if(Request::segment(1) == 'login')
         <a class="btn btn-success" href="{{url('/register')}}">Join</a>
