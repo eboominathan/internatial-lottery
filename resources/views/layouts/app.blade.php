@@ -69,17 +69,20 @@
         aria-label="Search"
         /> --}}
         <a class="  btn btn-warning" href="{{ url('lottery/view') }}">Results</a>
-        @guest
-        @if(Request::segment(1) == 'login')
-        <a class="btn btn-success" href="{{url('/register')}}">Join</a>
-        @endif
-        @if(Request::segment(1) == 'register')
-        <a class="nav-link" aria-current="page" href="{{url('/login')}}">Login</a>
-        @endif
-        @else
-          <a class="nav-link" href="{{ route('signout') }}">Logout</a>
 
-        @endguest
+        @if(isset(Auth::user()->id) && Auth::user()->id ==  1)
+        <a class="btn btn-success" href="{{url('/register')}}">Create Users</a>
+        <a class="btn btn-success" href="{{url('/lottery/create')}}">Create Result</a>
+        @endif
+        @if(!Auth::user())
+        <a class=" btn btn-success" aria-current="page" href="{{url('/login')}}">Login</a>
+
+        @elseif(Auth::user())
+          <a class=" btn btn-success"  href="{{ route('signout') }}">Logout</a>
+          @endif
+    @php
+    @endphp
+
       </form>
     </div>
   </div>
