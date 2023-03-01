@@ -30164,49 +30164,49 @@
         <ul class="o-layout c-global-footer__link-block-list">
             <li class="o-layout__col o-layout__col--12 o-layout__col--6@md o-layout__col--3@lg">
                 <div class="c-global-footer__link-block">
-                    <a href="faqs/index.html" class="c-global-footer__link-block-link" title="FAQs">FAQs</a>
+                    <a href="javascript:void(0);" class="c-global-footer__link-block-link" title="FAQs">FAQs</a>
                     <span class="c-global-footer__link-block-desc">Frequently asked questions</span>
                 </div>
             </li>
             <li class="o-layout__col o-layout__col--12 o-layout__col--6@md o-layout__col--3@lg">
                 <div class="c-global-footer__link-block">
-                    <a href="jackpots/index.html" class="c-global-footer__link-block-link" title="Jackpots">Jackpots</a>
+                    <a href="javascript:void(0);" class="c-global-footer__link-block-link" title="Jackpots">Jackpots</a>
                     <span class="c-global-footer__link-block-desc">Top lottery jackpots</span>
                 </div>
             </li>
             <li class="o-layout__col o-layout__col--12 o-layout__col--6@md o-layout__col--3@lg">
                 <div class="c-global-footer__link-block">
-                    <a href="daily-games/index.html" class="c-global-footer__link-block-link" title="Daily Games">Daily Games</a>
+                    <a href="javascript:void(0);" class="c-global-footer__link-block-link" title="Daily Games">Daily Games</a>
                     <span class="c-global-footer__link-block-desc">Numbers for daily games</span>
                 </div>
             </li>
             <li class="o-layout__col o-layout__col--12 o-layout__col--6@md o-layout__col--3@lg">
                 <div class="c-global-footer__link-block">
-                    <a href="live-draws/index.html" class="c-global-footer__link-block-link" title="Live Draws">Live Draws</a>
+                    <a href="javascript:void(0);" class="c-global-footer__link-block-link" title="Live Draws">Live Draws</a>
                     <span class="c-global-footer__link-block-desc">Live lottery numbers</span>
                 </div>
             </li>
             <li class="o-layout__col o-layout__col--12 o-layout__col--6@md o-layout__col--3@lg">
                 <div class="c-global-footer__link-block">
-                    <a href="whereto/index.html" class="c-global-footer__link-block-link" title="Where to Play">Where to Play</a>
+                    <a href="javascript:void(0);" class="c-global-footer__link-block-link" title="Where to Play">Where to Play</a>
                     <span class="c-global-footer__link-block-desc">Multi-state game participants</span>
                 </div>
             </li>
             <li class="o-layout__col o-layout__col--12 o-layout__col--6@md o-layout__col--3@lg">
                 <div class="c-global-footer__link-block">
-                    <a href="lottery-predictions/index.html" class="c-global-footer__link-block-link" title="Lottery Numerology Predictions">Lottery Numerology Predictions</a>
+                    <a href="javascript:void(0);" class="c-global-footer__link-block-link" title="Lottery Numerology Predictions">Lottery Numerology Predictions</a>
                     <span class="c-global-footer__link-block-desc">Weekly lottery predictions</span>
                 </div>
             </li>
             <li class="o-layout__col o-layout__col--12 o-layout__col--6@md o-layout__col--3@lg">
                 <div class="c-global-footer__link-block">
-                    <a href="search/index.html" class="c-global-footer__link-block-link" title="Search International Lottery ">Search</a>
+                    <a href="javascript:void(0);" class="c-global-footer__link-block-link" title="Search International Lottery ">Search</a>
                     <span class="c-global-footer__link-block-desc">Search International Lottery </span>
                 </div>
             </li>
             <li class="o-layout__col o-layout__col--12 o-layout__col--6@md o-layout__col--3@lg">
                 <div class="c-global-footer__link-block">
-                    <a href="odds/index.html" class="c-global-footer__link-block-link" title="Lottery Game Odds">Lottery Game Odds</a>
+                    <a href="javascript:void(0);" class="c-global-footer__link-block-link" title="Lottery Game Odds">Lottery Game Odds</a>
                     <span class="c-global-footer__link-block-desc">Odds of winning lottery games</span>
                 </div>
             </li>
@@ -30214,31 +30214,31 @@
 
         <ul class="c-global-footer__link-bar">
             <li class="c-global-footer__link-bar-item">
-                <a href="about-us/index.html" class="c-global-footer__link-bar-link">About Us</a>
+                <a href="javascript:void(0);" class="c-global-footer__link-bar-link">About Us</a>
             </li>
             <li class="c-global-footer__link-bar-item">
-                <a href="scams/index.html" class="c-global-footer__link-bar-link">Scams</a>
+                <a href="javascript:void(0);" class="c-global-footer__link-bar-link">Scams</a>
             </li>
             <li class="c-global-footer__link-bar-item">
-                <a href="play-responsibly/index.html" class="c-global-footer__link-bar-link">Play Responsibly</a>
+                <a href="javascript:void(0);" class="c-global-footer__link-bar-link">Play Responsibly</a>
             </li>
             <li class="c-global-footer__link-bar-item">
-                <a href="glossary/index.html" class="c-global-footer__link-bar-link">Glossary</a>
+                <a href="javascript:void(0);" class="c-global-footer__link-bar-link">Glossary</a>
             </li>
             <li class="c-global-footer__link-bar-item">
-                <a href="terms/index.html" class="c-global-footer__link-bar-link">Terms</a>
+                <a href="javascript:void(0);" class="c-global-footer__link-bar-link">Terms</a>
             </li>
             <li class="c-global-footer__link-bar-item">
-                <a href="privacy-policy/index.html" class="c-global-footer__link-bar-link">Privacy Policy</a>
+                <a href="javascript:void(0);" class="c-global-footer__link-bar-link">Privacy Policy</a>
             </li>
             <li class="c-global-footer__link-bar-item">
-                <a href="cookies/index.html" class="c-global-footer__link-bar-link">Cookies</a>
+                <a href="javascript:void(0);" class="c-global-footer__link-bar-link">Cookies</a>
             </li>
             <li class="c-global-footer__link-bar-item">
-                <a href="copyright-policy/index.html" class="c-global-footer__link-bar-link">Copyright Policy</a>
+                <a href="javascript:void(0);" class="c-global-footer__link-bar-link">Copyright Policy</a>
             </li>
             <li class="c-global-footer__link-bar-item c-global-footer__link-bar-item--last-text">
-                <a href="contact-us/index.html" class="c-global-footer__link-bar-link">Contact Us</a>
+                <a href="javascript:void(0);" class="c-global-footer__link-bar-link">Contact Us</a>
             </li>
         </ul>
         <ul class="c-global-footer__link-bar c-global-footer__link-bar--social">

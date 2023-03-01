@@ -38,7 +38,7 @@
                         <b>
                             <table width="100%" style="color:#fff;font-size: 21px;">
                                 <tr align="center">
-                                    <td><strong>Internationa1 - Lottery </strong></td>
+                                    <td><strong>International - Lottery </strong></td>
                                 </tr>
                                 <tr align="center">
                                     <td><strong><?= date('l M d,Y') ?></strong></td>
@@ -357,516 +357,516 @@
 <div class="container">
     <ul class="c-footer-navigation__state-links o-layout u-list-plain">
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Afghanistan">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Afghanistan">
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Albania">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Albania">
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Algeria">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Algeria">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Andorra">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Andorra">
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Angola">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Angola">
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Antigua and Barbuda">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Antigua and Barbuda">
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Argentina">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Argentina">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Armenia">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Armenia">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Bahamas">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Bahamas">
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Bahrain">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Bahrain">
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Bangladesh">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Bangladesh">
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Barbados">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Barbados">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Belarus">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Belarus">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Belgium">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Belgium">
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Belize">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Belize">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Benin">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Benin">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Bhutan">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Bhutan">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Cameroon">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Cameroon">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Canada">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Canada">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Cabo Verde">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Cabo Verde">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Central African Republic">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Central African Republic">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Chad">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Chad">
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Chile">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Chile">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Denmark">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Denmark">
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Djibouti">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Djibouti">
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Dominica">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Dominica">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Dominican Republic">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Dominican Republic">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="East Timor (see Timor-Leste)">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="East Timor (see Timor-Leste)">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Ecuador">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Ecuador">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Egypt">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Egypt">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="El Salvador">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="El Salvador">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Equatorial Guinea">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Equatorial Guinea">
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Gabon">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Gabon">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Gambia">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Gambia">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Georgia">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Georgia">
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Germany">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Germany">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Ghana">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Ghana">
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Greece">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Greece">
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Haiti">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Haiti">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="See">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="See">
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Honduras">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Honduras">
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Hong Kong">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Hong Kong">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Hungary">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Hungary">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Iceland">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Iceland">
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="India">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="India">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Indonesia">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Indonesia">
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Kazakhstan">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Kazakhstan">
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Kenya">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Kenya">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Kiribati">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Kiribati">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Laos">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Laos">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Latvia">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Latvia">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Lebanon">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Lebanon">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Lesotho">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Lesotho">
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Liberia">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Liberia">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Libya">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Libya">
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Liechtenstein">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Liechtenstein">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Lithuania">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Lithuania">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Luxembourg">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Luxembourg">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Macau">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Macau">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Macedonia">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Macedonia">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Madagascar">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Madagascar">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Malawi">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Malawi">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Malaysia">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Malaysia">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Maldives">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Maldives">
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Mali">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Mali">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Malta">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Malta">
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Marshall Islands">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Marshall Islands">
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Mauritania">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Mauritania">
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Namibia">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Namibia">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Nauru">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Nauru">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Nepal">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Nepal">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Netherlands">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Netherlands">
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Saint Kitts and Nevis">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Saint Kitts and Nevis">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Saint Lucia">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Saint Lucia">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Vincent and the Grenadines">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Vincent and the Grenadines">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Samoa">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Samoa">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Singapore">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Singapore">
 
 
 
             </a>
         </li>
         <li class="o-layout__col o-layout__col--6 o-layout__col--3@md o-layout__col--2@lg">
-            <a href="#" class="c-state-link c-state-link--abbr" data-state-link-content="Slovakia">
+            <a href="javascript:void(0);" class="c-state-link c-state-link--abbr" data-state-link-content="Slovakia">
 
 
             </a>
@@ -30164,49 +30164,49 @@
         <ul class="o-layout c-global-footer__link-block-list">
             <li class="o-layout__col o-layout__col--12 o-layout__col--6@md o-layout__col--3@lg">
                 <div class="c-global-footer__link-block">
-                    <a href="faqs/index.html" class="c-global-footer__link-block-link" title="FAQs">FAQs</a>
+                    <a href="javascript:void(0);" class="c-global-footer__link-block-link" title="FAQs">FAQs</a>
                     <span class="c-global-footer__link-block-desc">Frequently asked questions</span>
                 </div>
             </li>
             <li class="o-layout__col o-layout__col--12 o-layout__col--6@md o-layout__col--3@lg">
                 <div class="c-global-footer__link-block">
-                    <a href="jackpots/index.html" class="c-global-footer__link-block-link" title="Jackpots">Jackpots</a>
+                    <a href="javascript:void(0);" class="c-global-footer__link-block-link" title="Jackpots">Jackpots</a>
                     <span class="c-global-footer__link-block-desc">Top lottery jackpots</span>
                 </div>
             </li>
             <li class="o-layout__col o-layout__col--12 o-layout__col--6@md o-layout__col--3@lg">
                 <div class="c-global-footer__link-block">
-                    <a href="daily-games/index.html" class="c-global-footer__link-block-link" title="Daily Games">Daily Games</a>
+                    <a href="javascript:void(0);" class="c-global-footer__link-block-link" title="Daily Games">Daily Games</a>
                     <span class="c-global-footer__link-block-desc">Numbers for daily games</span>
                 </div>
             </li>
             <li class="o-layout__col o-layout__col--12 o-layout__col--6@md o-layout__col--3@lg">
                 <div class="c-global-footer__link-block">
-                    <a href="live-draws/index.html" class="c-global-footer__link-block-link" title="Live Draws">Live Draws</a>
+                    <a href="javascript:void(0);" class="c-global-footer__link-block-link" title="Live Draws">Live Draws</a>
                     <span class="c-global-footer__link-block-desc">Live lottery numbers</span>
                 </div>
             </li>
             <li class="o-layout__col o-layout__col--12 o-layout__col--6@md o-layout__col--3@lg">
                 <div class="c-global-footer__link-block">
-                    <a href="whereto/index.html" class="c-global-footer__link-block-link" title="Where to Play">Where to Play</a>
+                    <a href="javascript:void(0);" class="c-global-footer__link-block-link" title="Where to Play">Where to Play</a>
                     <span class="c-global-footer__link-block-desc">Multi-state game participants</span>
                 </div>
             </li>
             <li class="o-layout__col o-layout__col--12 o-layout__col--6@md o-layout__col--3@lg">
                 <div class="c-global-footer__link-block">
-                    <a href="lottery-predictions/index.html" class="c-global-footer__link-block-link" title="Lottery Numerology Predictions">Lottery Numerology Predictions</a>
+                    <a href="javascript:void(0);" class="c-global-footer__link-block-link" title="Lottery Numerology Predictions">Lottery Numerology Predictions</a>
                     <span class="c-global-footer__link-block-desc">Weekly lottery predictions</span>
                 </div>
             </li>
             <li class="o-layout__col o-layout__col--12 o-layout__col--6@md o-layout__col--3@lg">
                 <div class="c-global-footer__link-block">
-                    <a href="search/index.html" class="c-global-footer__link-block-link" title="Search International Lottery ">Search</a>
+                    <a href="javascript:void(0);" class="c-global-footer__link-block-link" title="Search International Lottery ">Search</a>
                     <span class="c-global-footer__link-block-desc">Search International Lottery </span>
                 </div>
             </li>
             <li class="o-layout__col o-layout__col--12 o-layout__col--6@md o-layout__col--3@lg">
                 <div class="c-global-footer__link-block">
-                    <a href="odds/index.html" class="c-global-footer__link-block-link" title="Lottery Game Odds">Lottery Game Odds</a>
+                    <a href="javascript:void(0);" class="c-global-footer__link-block-link" title="Lottery Game Odds">Lottery Game Odds</a>
                     <span class="c-global-footer__link-block-desc">Odds of winning lottery games</span>
                 </div>
             </li>
@@ -30214,31 +30214,31 @@
 
         <ul class="c-global-footer__link-bar">
             <li class="c-global-footer__link-bar-item">
-                <a href="about-us/index.html" class="c-global-footer__link-bar-link">About Us</a>
+                <a href="javascript:void(0);" class="c-global-footer__link-bar-link">About Us</a>
             </li>
             <li class="c-global-footer__link-bar-item">
-                <a href="scams/index.html" class="c-global-footer__link-bar-link">Scams</a>
+                <a href="javascript:void(0);" class="c-global-footer__link-bar-link">Scams</a>
             </li>
             <li class="c-global-footer__link-bar-item">
-                <a href="play-responsibly/index.html" class="c-global-footer__link-bar-link">Play Responsibly</a>
+                <a href="javascript:void(0);" class="c-global-footer__link-bar-link">Play Responsibly</a>
             </li>
             <li class="c-global-footer__link-bar-item">
-                <a href="glossary/index.html" class="c-global-footer__link-bar-link">Glossary</a>
+                <a href="javascript:void(0);" class="c-global-footer__link-bar-link">Glossary</a>
             </li>
             <li class="c-global-footer__link-bar-item">
-                <a href="terms/index.html" class="c-global-footer__link-bar-link">Terms</a>
+                <a href="javascript:void(0);" class="c-global-footer__link-bar-link">Terms</a>
             </li>
             <li class="c-global-footer__link-bar-item">
-                <a href="privacy-policy/index.html" class="c-global-footer__link-bar-link">Privacy Policy</a>
+                <a href="javascript:void(0);" class="c-global-footer__link-bar-link">Privacy Policy</a>
             </li>
             <li class="c-global-footer__link-bar-item">
-                <a href="cookies/index.html" class="c-global-footer__link-bar-link">Cookies</a>
+                <a href="javascript:void(0);" class="c-global-footer__link-bar-link">Cookies</a>
             </li>
             <li class="c-global-footer__link-bar-item">
-                <a href="copyright-policy/index.html" class="c-global-footer__link-bar-link">Copyright Policy</a>
+                <a href="javascript:void(0);" class="c-global-footer__link-bar-link">Copyright Policy</a>
             </li>
             <li class="c-global-footer__link-bar-item c-global-footer__link-bar-item--last-text">
-                <a href="contact-us/index.html" class="c-global-footer__link-bar-link">Contact Us</a>
+                <a href="javascript:void(0);" class="c-global-footer__link-bar-link">Contact Us</a>
             </li>
         </ul>
         <ul class="c-global-footer__link-bar c-global-footer__link-bar--social">
