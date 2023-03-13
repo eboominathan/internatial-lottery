@@ -18383,7 +18383,7 @@
         }
 
         .c-global-footer__link-block-desc {
-            color: #ffffffbf;
+            color: #000000;
             font-weight: 400
         }
 
