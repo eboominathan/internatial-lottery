@@ -18294,7 +18294,7 @@
         .c-global-footer {
             background: #000000;
             background: linear-gradient(320deg, #000000, #dddddd, #eeeeee);
-            color: #ffffffbf;
+            color: #000000;
             padding-top: 40px
         }
 
