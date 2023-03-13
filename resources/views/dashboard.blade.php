@@ -18359,7 +18359,7 @@
         }
 
         .c-global-footer__link-block-link {
-            color: #fff;
+            color: #000000;
             display: block;
             font-weight: 700;
             text-decoration: none
