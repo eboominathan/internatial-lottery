@@ -4,7 +4,7 @@
 <br>
 <div class="container" style="height:91vh">
     <div class="row">
-        <div class="col-md-12 text-white">
+        <div class="col-md-12">
             <div class="card">
                 <div class="alert alert-success"></div>
                 <form id="form">
@@ -39,7 +39,7 @@
                                 </div>
                             </div>
 
-                        <div class="col-sm-12 text-white">
+                        <div class="col-sm-12">
                             <div class="row">
                                 <div class="col-sm-12 text-center">
                                     <span class="fs-5 fw-bold">A: Jackpot</span>
