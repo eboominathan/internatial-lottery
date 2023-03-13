@@ -27,7 +27,7 @@
   </style>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand fw-bold text-white" href="{{ url('/dashboard') }}">INTERNATIONAL LOTTERY</a>
+      <a class="navbar-brand fw-bold" href="{{ url('/dashboard') }}">INTERNATIONAL LOTTERY</a>
       <button
       class="navbar-toggler"
       type="button"

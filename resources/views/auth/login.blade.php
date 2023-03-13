@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<main class="login-form black">
+<main class="login-form text-black">
     <div class="cotainer">
         <div class="row justify-content-center">
             <div class="col-md-4">
