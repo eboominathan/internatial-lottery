@@ -18504,7 +18504,7 @@
         }
 
         .c-global-footer__small-print small {
-            color: #fffc;
+            color: #000000;
             display: block;
             font-size: 14px;
             font-size: .7777778rem;
@@ -18580,7 +18580,7 @@
         }
 
         .c-global-footer__lusa-seal-text {
-            color: #ffffffbf;
+            color: #000000;
             font-size: 14px;
             font-size: .7777778rem;
             line-height: 1.1428571;
