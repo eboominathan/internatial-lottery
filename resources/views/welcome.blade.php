@@ -18588,7 +18588,7 @@
         }
 
         .c-global-footer__updated {
-            color: #fff;
+            color: #000000;
             font-size: 14px;
             font-size: .7777778rem;
             font-weight: 500;
