@@ -204,7 +204,7 @@
                         </b>
                         <hr>
                         <div class="col-md-12">
-                        <div class="row mb-20">
+                            <div class="row mb-20">
                                 <div class="col-md-12 text-center ">
                                     <div class="row text-center">
                                         <div class="col-md-6 col-6">
@@ -256,7 +256,7 @@
                         </b>
                         <hr>
                         <div class="col-md-12">
-                        <div class="row mb-20">
+                            <div class="row mb-20">
                                 <div class="col-md-12 text-center ">
                                     <div class="row text-center">
                                         <div class="col-md-6 col-6">
@@ -307,7 +307,7 @@
                         </b>
                         <hr>
                         <div class="col-md-12">
-                        <div class="row mb-20">
+                            <div class="row mb-20">
                                 <div class="col-md-12 text-center ">
                                     <div class="row text-center">
                                         <div class="col-md-6 col-6">
@@ -18292,7 +18292,8 @@
         }
 
         .c-global-footer {
-            background-color: #0a0827;
+            background: #000000;
+            background: linear-gradient(320deg, #000000, #dddddd, #eeeeee);
             color: #ffffffbf;
             padding-top: 40px
         }

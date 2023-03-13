@@ -145,9 +145,10 @@ hr {
 
 .container-fluid {
     /*background-image: url('{{asset('images/background.jpg')}}');*/
-    background: #8a2387;
-    background: linear-gradient(320deg, #f27121, #e94057, #8a2387);
+    background: #000000;
+    background: linear-gradient(320deg, #000000, #dddddd, #eeeeee);
 }
+
 .card {
     background: grey !important;
     border-radius: 16px;
