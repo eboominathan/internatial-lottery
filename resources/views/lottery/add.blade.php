@@ -2,7 +2,7 @@
 
 @section('content')
 <br>
-<div class="container">
+<div class="container" style="height:91vh">
     <div class="row">
         <div class="col-md-12 text-white">
             <div class="card">
@@ -12,9 +12,9 @@
                     <div class="card-body">
                             <div class="col-sm-12">
                                 <div class="row">
-                                    
-                                    <div class="col-sm-4">                                     
-                                          
+
+                                    <div class="col-sm-4">
+
                                                 <select style="width:125px" id="time" name="type" class="form-control">
                                                     <option value="">Select time</option>
                                                     <option value="8">08:00 AM</option>
@@ -24,21 +24,21 @@
                                                     <option value="5">05:00 PM</option>
                                                     <option value="7">07:00 PM</option>
                                                 </select>
-                                       
+
                                     </div>
                                     <div class="col-sm-4">
-                                       
+
                                             <h5> INTERNATIONAL LOTTERY  <br>RESULT ENTER BOARD</h5>
-                                      
+
                                     </div>
                                     <div class="col-sm-4">
-                                      
+
                                             <h5> <?php echo date('l M d,Y'); ?></h5>
-                                      
+
                                     </div>
                                 </div>
                             </div>
-                       
+
                         <div class="col-sm-12 text-white">
                             <div class="row">
                                 <div class="col-sm-12 text-center">
@@ -48,10 +48,10 @@
                                         <div class="col-sm-3 "></div>
                                         <div class="col-sm-3 ">
                                             <input maxlength="2"  class="form-control" name="a1">
-                                        </div>                                       
+                                        </div>
                                         <div class="col-sm-3">
                                             <input maxlength="3"  class="form-control" name="a2">
-                                        </div>                                        
+                                        </div>
                                         <br >
                                         <br >
                                          <div class="footer" align="center">
@@ -60,9 +60,9 @@
 
                                     </div>
                                 </div>
-                             
-                           
-                               
+
+
+
                             </div> <!-- Row -->
 
                         </div>
@@ -75,8 +75,8 @@
         <style>
             body{
     /*background-image: url('{{asset('images/background.jpg')}}');*/
-        background: #8a2387;
-        background: linear-gradient(320deg,#f27121,#e94057,#8a2387);
+    background: #000000;
+    background: linear-gradient(320deg, #000000, #dddddd, #eeeeee);
     }
     .card{
         background: rgba(255, 255, 255, 0.2) !important;
