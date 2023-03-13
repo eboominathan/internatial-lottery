@@ -18482,7 +18482,7 @@
         }
 
         .c-global-footer__link-bar-link {
-            color: #fff;
+            color: #000000;
             display: block;
             font-size: 14px;
             font-size: .7777778rem;
