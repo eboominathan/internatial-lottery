@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<main class="login-form">
+<main class="login-form black">
     <div class="cotainer">
         <div class="row justify-content-center">
             <div class="col-md-4">
@@ -42,8 +42,8 @@
 <style>
     body{
     /*background-image: url('{{asset('images/background.jpg')}}');*/
-        background: #8a2387;
-        background: linear-gradient(320deg,#f27121,#e94057,#8a2387);
+    background: #000000;
+    background: linear-gradient(320deg, #000000, #dddddd, #eeeeee);
     }
 </style>
 
