@@ -49,9 +49,7 @@ function getResult() {
                 }
             });
         }else{
-            setInterval(function() {
                 myFunction();
-            }, 200);
         }
     });
 }
