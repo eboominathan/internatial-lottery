@@ -30162,7 +30162,7 @@
         <h2 class="u-hidden-visually">Useful Links</h2>
 
 
-        <ul class="o-layout c-global-footer__link-block-list">
+        {{-- <ul class="o-layout c-global-footer__link-block-list">
             <li class="o-layout__col o-layout__col--12 o-layout__col--6@md o-layout__col--3@lg">
                 <div class="c-global-footer__link-block">
                     <a href="javascript:void(0);" class="c-global-footer__link-block-link" title="FAQs">FAQs</a>
@@ -30241,8 +30241,8 @@
             <li class="c-global-footer__link-bar-item c-global-footer__link-bar-item--last-text">
                 <a href="javascript:void(0);" class="c-global-footer__link-bar-link">Contact Us</a>
             </li>
-        </ul>
-        <ul class="c-global-footer__link-bar c-global-footer__link-bar--social">
+        </ul> --}}
+        {{-- <ul class="c-global-footer__link-bar c-global-footer__link-bar--social">
             <li class="c-global-footer__link-bar-item c-global-footer__link-bar-item--social-icon">
                 <a href="javascript:void(0)" target="_blank" title="International Lottery 's Facebook" rel="noopener noreferrer">
                     <span class="u-hidden-visually">International Lottery 's Facebook</span>
@@ -30289,7 +30289,7 @@
     S62.36,22.2,61.11,17.49z M26.23,40.95V23.11l15.68,8.92L26.23,40.95z"></path>
                     </svg> </a>
             </li>
-        </ul>
+        </ul> --}}
 
 
         <div class="o-layout o-layout--flush o-layout--stretch">
