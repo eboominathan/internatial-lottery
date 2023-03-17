@@ -12,42 +12,46 @@ function getResult() {
                         type = 8;
                         $("#a1_" + type).text(this.a1);
                         $("#a2_" + type).text(this.a2);
-                       
+
                         break;
                     case 10:
                         type = 10;
                         $("#a1_" + type).text(this.a1);
                         $("#a2_" + type).text(this.a2);
-                      
+
                         break;
                     case 12:
                         type = 12;
                         $("#a1_" + type).text(this.a1);
                         $("#a2_" + type).text(this.a2);
-                      
+
                         break;
                     case 3:
                         type = 3;
                         $("#a1_" + type).text(this.a1);
                         $("#a2_" + type).text(this.a2);
-                      
+
                         break;
                     case 5:
                         type = 5;
                         $("#a1_" + type).text(this.a1);
                         $("#a2_" + type).text(this.a2);
-                      
+
                         break;
                     case 7:
                         type = 7;
                         $("#a1_" + type).text(this.a1);
                         $("#a2_" + type).text(this.a2);
-                      
+
                         break;
                     default:
                         break;
                 }
             });
+        }else{
+            setInterval(function() {
+                myFunction();
+            }, 200);
         }
     });
 }
@@ -97,42 +101,42 @@ function getRandom(count){
         max = 999;
     }
   return  Math.floor((Math.random() * (max - min + 1) + min));
-    
+
 }
-function myFunction() {   
-      
+function myFunction() {
+
                 if($('#published_8').val() == ''){
-                $("#a1_8").text(getRandom(2)); 
-                $("#a2_8").text(getRandom(3));                    
+                $("#a1_8").text(getRandom(2));
+                $("#a2_8").text(getRandom(3));
                 }
 
                 if($('#published_10').val() == ''){
-                $("#a1_10").text(getRandom(2)); 
-                $("#a2_10").text(getRandom(3));                    
+                $("#a1_10").text(getRandom(2));
+                $("#a2_10").text(getRandom(3));
                 }
 
                 if($('#published_12').val() == ''){
                 $("#a1_12").text(getRandom(2));
-                $("#a2_12").text(getRandom(3));                    
+                $("#a2_12").text(getRandom(3));
                 }
 
                 if($('#published_3').val() == ''){
-                $("#a1_3").text(getRandom(2)); 
-                $("#a2_3").text(getRandom(3));                               
+                $("#a1_3").text(getRandom(2));
+                $("#a2_3").text(getRandom(3));
                 }
 
                 if($('#published_5').val() == ''){
                 $("#a1_5").text(getRandom(2));
-                $("#a2_5").text(getRandom(3));                                                    
+                $("#a2_5").text(getRandom(3));
                 }
 
                 if($('#published_7').val() == ''){
-                $("#a1_7").text(getRandom(2));   
-                $("#a2_7").text(getRandom(3));                    
+                $("#a1_7").text(getRandom(2));
+                $("#a2_7").text(getRandom(3));
                 }
 
-                
-                        
+
+
 }
 
 setInterval(function() {

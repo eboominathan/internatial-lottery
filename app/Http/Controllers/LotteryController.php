@@ -124,7 +124,6 @@ class LotteryController extends Controller
         $currentDate = Carbon::now()->format('Y-m-d');
         $result = LotteryDetail::where('date', $currentDate)->get();
         if(!empty($result)){
-            $response = [];
             $currentDatetime = Carbon::now()->format('Y-m-d H:i:s');
 
                 foreach($result as $key => $value){
