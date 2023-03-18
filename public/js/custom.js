@@ -22,8 +22,8 @@ function getResult() {
                         break;
                     case 12:
                         type = 12;
-                        $("#a1_" + type).text(this.a1);
-                        $("#a2_" + type).text(this.a2);
+                        $("#a1_2").text(this.a1);
+                        $("#a2_2").text(this.a2);
                       
                         break;
                     case 3:
