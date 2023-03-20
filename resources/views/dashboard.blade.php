@@ -157,12 +157,12 @@
                                     <div class="row text-center">
                                         <div class="col-md-6 col-6">
                                             <strong class="jcc-r">
-                                                <div class="center" id="a1_2">00</div>
+                                                <div class="center" id="a1_12">00</div>
                                             </strong>
                                         </div>
                                         <div class="col-md-6 col-6">
                                             <strong class="jcc-l">
-                                                <div class="center" id="a2_2">000</div>
+                                                <div class="center" id="a2_12">000</div>
                                             </strong>
                                         </div>
                                     </div>

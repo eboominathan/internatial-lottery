@@ -146,6 +146,9 @@ class LotteryController extends Controller
                     if($value['type'] == 7 && $currentDatetime > $value['date'].' 07:00:00' ){
                         $result[$key]['published'] = true;
                     }
+                    if($value['type'] == 12 && $currentDatetime > $value['date'].' 00:00:00' ){
+                        $result[$key]['published'] = true;
+                    }
 
                 }
         }
