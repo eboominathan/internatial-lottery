@@ -24,7 +24,7 @@ function getResult() {
                         type = 12;
                         $("#a1_2").text(this.a1);
                         $("#a2_2").text(this.a2);
-                      
+
                         break;
                     case 3:
                         type = 3;
@@ -114,8 +114,8 @@ function myFunction() {
                 }
 
                 if($('#published_12').val() == ''){
-                $("#a1_12").text(getRandom(2));
-                $("#a2_12").text(getRandom(3));
+                $("#a1_2").text(getRandom(2));
+                $("#a2_2").text(getRandom(3));
                 }
 
                 if($('#published_3').val() == ''){
